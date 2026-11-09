@@ -1,0 +1,22 @@
+{
+  "level": 12,
+  "name": "The wide park",
+  "blurb": "Almost every dot is free. One line is still best.",
+  "aside": "Two treats and the stick at A2 are on one line: up column A, then across row 2, through the water and the cave. She finishes with 5 energy. That line scores −10. The right-hand walk takes the first treat and the ball at F7, misses both sticks, and scores −11. The stick at C1 is the walk over the top. It keeps the treats and the stick at A2, and it scores −11.",
+  "start": "A10",
+  "flag": "F2",
+  "trees": ["C8", "C9", "D8", "D9"],
+  "water": ["C2", "C3", "D3"],
+  "caves": ["E2", "E3"],
+  "pickups": [
+    {"at": "A8", "kind": "treat"},
+    {"at": "A6", "kind": "treat"},
+    {"at": "A4", "kind": "vest"},
+    {"at": "A2", "kind": "stick"},
+    {"at": "C1", "kind": "stick"},
+    {"at": "D2", "kind": "lamp"},
+    {"at": "F7", "kind": "ball"}
+  ],
+  "expect": ["A10", "A9", "A8", "A7", "A6", "A5", "A4", "A3", "A2", "B2", "C2", "D2", "E2", "F2"],
+  "checks": {"with_ball": -9, "avoiding_water": -9, "avoiding_cave": -9}
+}

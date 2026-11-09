@@ -1,0 +1,92 @@
+{
+  "level": 1,
+  "name": "The whole walk",
+  "blurb": "Every mark is on this page. One line from Abby to the flag.",
+  "start": "A10",
+  "flag": "F2",
+  "open": [
+    "F2",
+    "C3",
+    "D3",
+    "E3",
+    "F3",
+    "C4",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "E7",
+    "C8",
+    "D8",
+    "E8",
+    "C9",
+    "D9",
+    "A10",
+    "B10",
+    "C10",
+    "D10"
+  ],
+  "water": [
+    "D8",
+    "E8"
+  ],
+  "caves": [
+    "D5"
+  ],
+  "cliffs": [
+    [
+      "D7",
+      "D8"
+    ]
+  ],
+  "pickups": [
+    {
+      "at": "C10",
+      "kind": "treat"
+    },
+    {
+      "at": "C8",
+      "kind": "vest"
+    },
+    {
+      "at": "E7",
+      "kind": "treat"
+    },
+    {
+      "at": "D6",
+      "kind": "lamp"
+    },
+    {
+      "at": "D3",
+      "kind": "stick"
+    },
+    {
+      "at": "C4",
+      "kind": "stick"
+    },
+    {
+      "at": "D10",
+      "kind": "ball"
+    }
+  ],
+  "expect": [
+    "A10",
+    "B10",
+    "C10",
+    "D10",
+    "D9",
+    "C9",
+    "C8",
+    "D8",
+    "E8",
+    "E7",
+    "D7",
+    "D6",
+    "D5",
+    "D4",
+    "D3",
+    "E3",
+    "F3",
+    "F2"
+  ]
+}

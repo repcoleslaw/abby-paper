@@ -1,0 +1,17 @@
+{
+  "level": 7,
+  "name": "The open field",
+  "blurb": "The field is mostly open. The stick and the treat share one line.",
+  "aside": "The stick at A2 and the treat are on one line: up column A, then across row 2. That line scores −11. The ball at E1 is a finished walk, up to the top row and back down at the flag. She keeps the stick at A2, spends two extra steps, and scores −12. The stick at C8 is a walk up the right side. It reaches the flag and scores −13.",
+  "start": "A10",
+  "flag": "F2",
+  "trees": ["C6", "C7", "D6", "D7", "E6", "E7"],
+  "pickups": [
+    {"at": "A7", "kind": "treat"},
+    {"at": "A2", "kind": "stick"},
+    {"at": "C8", "kind": "stick"},
+    {"at": "E1", "kind": "ball"}
+  ],
+  "expect": ["A10", "A9", "A8", "A7", "A6", "A5", "A4", "A3", "A2", "B2", "C2", "D2", "E2", "F2"],
+  "checks": {"with_ball": -10}
+}

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="5.5in" height="7.7778in" viewBox="0 0 139.700 197.556">
+<!--
+  Paper Abby, how to play. Print at actual size, with the layout sheets.
+  Groups: header, welcome, how-to-play, icons, how-to-score.
+-->
+<style>
+  text { font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+  .ink { fill: #1c1915; }
+  .title { fill: #50260c; }
+  .label { fill: #a28255; }
+  .quiet { fill: #5e564c; }
+  .paper { fill: #ffffff; }
+  .header { fill: #f4dd9d; }
+  .open { fill: #fffdf8; }
+  .tree { fill: #e4f0da; }
+  .canopy { fill: #d5e7c6; stroke: #243024; stroke-width: 0.32; }
+  .trunk { stroke: #243024; stroke-width: 0.4; stroke-linecap: round; }
+  .water { fill: #d5eaf2; }
+  .wave { fill: none; stroke: #1d4c5c; stroke-width: 0.28; stroke-linecap: round; }
+  .cave { fill: #e7e0d6; }
+  .arch { fill: #d4cdc2; stroke: #1c1915; stroke-width: 0.35; }
+  .cliff { stroke: #3a2c1e; stroke-linecap: round; }
+  .dot { fill: #fffdf8; stroke: #1c1915; stroke-width: 0.38; }
+  .item { fill: none; stroke: #1c1915; stroke-width: 0.36; stroke-linecap: round; stroke-linejoin: round; }
+  .item-fill { fill: #1c1915; stroke: none; }
+  .formula { fill: #fbf6ea; }
+</style>
+<title>Paper Abby. How to play</title>
+<rect class="paper" x="0" y="0" width="139.700" height="197.556"/>
+<g id="header">
+<rect class="header" x="0" y="0" width="139.700" height="26.811"/>
+<text class="label" x="8.47" y="10.35" font-size="3.5" letter-spacing="0.08">instructions</text>
+<text class="label" x="79.02" y="8.47" font-size="2.7">Erase is free.</text>
+<text class="label" x="79.02" y="15.05" font-size="2.7">Higher is better.</text>
+<text class="title" x="8.47" y="21.64" font-size="8.2" font-weight="700">Paper Abby</text>
+</g>
+<g id="welcome">
+<text class="title" x="8.40" y="33.21" font-size="4.15" font-weight="700">Welcome</text>
+<line x1="8.40" y1="34.56" x2="131.30" y2="34.56" stroke="#e2d0a0" stroke-width="0.35"/>
+<text class="ink" x="8.40" y="38.36" font-size="2.92">Abby is the paw. The flag is the last dot. Draw one line from her</text>
+<text class="ink" x="8.40" y="41.94" font-size="2.92">to the flag. The pencil is the piece. Erase a line that goes wrong</text>
+<text class="ink" x="8.40" y="45.52" font-size="2.92">and draw another. The page is not lost.</text>
+</g>
+<g id="how-to-play">
+<text class="title" x="8.40" y="51.80" font-size="4.15" font-weight="700">How to Play</text>
+<line x1="8.40" y1="53.15" x2="131.30" y2="53.15" stroke="#e2d0a0" stroke-width="0.35"/>
+<text class="ink" x="8.40" y="56.95" font-size="2.92">The paw is free. Each new dot fills one circle. You start with twelve</text>
+<text class="ink" x="8.40" y="60.47" font-size="2.92">solid circles. Dashed circles are not yours until a treat inks three,</text>
+<text class="ink" x="8.40" y="63.99" font-size="2.92">after you pay for that dot. Twenty-four is the cap. None left: erase</text>
+<text class="ink" x="8.40" y="67.51" font-size="2.92">and redraw. The flag may take the last circle. That still counts.</text>
+<text class="ink" x="8.40" y="72.73" font-size="2.92">Step only to a dot that shares a side. No diagonals, and no dot twice,</text>
+<text class="ink" x="8.40" y="76.25" font-size="2.92">so the line never crosses itself. The flag is the last dot.</text>
+<text class="ink" x="8.40" y="81.47" font-size="2.92">Trees have no dot. A heavy edge is a cliff: go around. Waves need the</text>
+<text class="ink" x="8.40" y="84.99" font-size="2.92">vest. An arch needs the lamp. Pick it up, then step in. Circle a find</text>
+<text class="ink" x="8.40" y="88.51" font-size="2.92">the line enters, and mark it. A thing you only looked at stays blank.</text>
+</g>
+<g id="icons">
+<text class="title" x="8.40" y="94.73" font-size="4.15" font-weight="700">Icons</text>
+<line x1="8.40" y1="96.08" x2="131.30" y2="96.08" stroke="#e2d0a0" stroke-width="0.35"/>
+<g transform="translate(11.75,102.23)"><g transform="scale(1.55)"><ellipse class="item-fill" cx="0" cy="0.55" rx="1.22" ry="0.92"/><circle class="item-fill" cx="-1.05" cy="-0.82" r="0.4"/><circle class="item-fill" cx="-0.36" cy="-1.22" r="0.4"/><circle class="item-fill" cx="0.38" cy="-1.22" r="0.4"/><circle class="item-fill" cx="1.08" cy="-0.78" r="0.4"/></g></g>
+<text class="ink" x="16.10" y="100.93" font-size="2.7" font-weight="700">Paw</text>
+<text class="quiet" x="16.10" y="103.93" font-size="2.4">Abby. You start here, and this dot is free.</text>
+<g transform="translate(76.15,102.23)"><g transform="scale(1.55)"><line class="item" x1="-0.15" y1="-1.7" x2="-0.15" y2="1.55"/><path class="item-fill" d="M-0.15,-1.6 L1.65,-0.8 L-0.15,-0.05 Z"/></g></g>
+<text class="ink" x="80.50" y="100.93" font-size="2.7" font-weight="700">Flag</text>
+<text class="quiet" x="80.50" y="103.93" font-size="2.4">The last dot. The line stops when it enters.</text>
+<g transform="translate(11.75,110.28)"><rect class="open" x="-2.55" y="-2.55" width="5.1" height="5.1" stroke="#cfc6b8" stroke-width="0.28"/><circle class="dot" cx="0" cy="0" r="0.85"/></g>
+<text class="ink" x="16.10" y="108.98" font-size="2.7" font-weight="700">Dot</text>
+<text class="quiet" x="16.10" y="111.98" font-size="2.4">One step, only to a dot that shares a side.</text>
+<g transform="translate(76.15,110.28)"><g transform="scale(1.08)"><line class="trunk" x1="0" y1="0.4" x2="0" y2="2.4"/><circle class="canopy" cx="0.2" cy="-1.1" r="1.55"/><circle class="canopy" cx="-0.7" cy="0.15" r="1.05"/></g></g>
+<text class="ink" x="80.50" y="108.98" font-size="2.7" font-weight="700">Tree</text>
+<text class="quiet" x="80.50" y="111.98" font-size="2.4">No dot. You cannot enter. Go around.</text>
+<g transform="translate(11.75,118.33)"><g transform="scale(1.05)"><line class="cliff" x1="0" y1="-2.2" x2="0" y2="2.2" stroke-width="0.9"/><line class="cliff" x1="-1.2" y1="-1.1" x2="1.2" y2="-1.1" stroke-width="0.32"/><line class="cliff" x1="-1.2" y1="0" x2="1.2" y2="0" stroke-width="0.32"/><line class="cliff" x1="-1.2" y1="1.1" x2="1.2" y2="1.1" stroke-width="0.32"/></g></g>
+<text class="ink" x="16.10" y="117.03" font-size="2.7" font-weight="700">Cliff</text>
+<text class="quiet" x="16.10" y="120.03" font-size="2.4">A closed edge. Reach either dot another way.</text>
+<g transform="translate(76.15,118.33)"><g transform="scale(1.05)"><rect class="water" x="-2.4" y="-2.2" width="4.8" height="4.4"/><path class="wave" d="M-2,-1.1 Q-1,-1.7 0,-1.1 T2,-1.1"/><path class="wave" d="M-2,0.2 Q-1,-0.4 0,0.2 T2,0.2"/><path class="wave" d="M-2,1.4 Q-1,0.8 0,1.4 T2,1.4"/></g></g>
+<text class="ink" x="80.50" y="117.03" font-size="2.7" font-weight="700">Water</text>
+<text class="quiet" x="80.50" y="120.03" font-size="2.4">Waves. Enter only after the vest is checked.</text>
+<g transform="translate(11.75,126.38)"><g transform="scale(1.12)"><path class="arch" d="M-2,2 L-2,-0.4 Q-2,-2.2 0,-2.2 Q2,-2.2 2,-0.4 L2,2 Z"/></g></g>
+<text class="ink" x="16.10" y="125.08" font-size="2.7" font-weight="700">Cave</text>
+<text class="quiet" x="16.10" y="128.08" font-size="2.4">An arch. Enter only after the lamp is checked.</text>
+<g transform="translate(76.15,126.38)"><g transform="scale(1.38)"><path class="item" d="M-1.25,-1.35 L-1.25,1.25 L1.25,1.25 L1.25,-1.35 L0.42,-1.35 L0.42,-0.25 L-0.42,-0.25 L-0.42,-1.35 Z"/><line class="item" x1="0" y1="-0.25" x2="0" y2="1.25"/></g></g>
+<text class="ink" x="80.50" y="125.08" font-size="2.7" font-weight="700">Vest<tspan class="label" font-weight="400" font-size="2.4" dx="1.5">V</tspan></text>
+<text class="quiet" x="80.50" y="128.08" font-size="2.4">Pick it up before the water. It does not score.</text>
+<g transform="translate(11.75,134.43)"><g transform="scale(1.38)"><path class="item" d="M-1.35,-0.15 Q0,-1.45 1.35,-0.15"/><circle class="item" cx="0.15" cy="0.35" r="0.62"/><line class="item" x1="0.7" y1="0.05" x2="1.35" y2="-0.35"/><line class="item" x1="0.85" y1="0.45" x2="1.55" y2="0.45"/><line class="item" x1="0.7" y1="0.85" x2="1.3" y2="1.2"/></g></g>
+<text class="ink" x="16.10" y="133.13" font-size="2.7" font-weight="700">Lamp<tspan class="label" font-weight="400" font-size="2.4" dx="1.5">L</tspan></text>
+<text class="quiet" x="16.10" y="136.13" font-size="2.4">Pick it up before the cave. It does not score.</text>
+<g transform="translate(76.15,134.43)"><g transform="scale(1.38)"><line class="item" x1="-1.45" y1="1.05" x2="1.35" y2="-1.15"/><line class="item" x1="0.05" y1="-0.15" x2="1.1" y2="0.5"/></g></g>
+<text class="ink" x="80.50" y="133.13" font-size="2.7" font-weight="700">Stick<tspan class="label" font-weight="400" font-size="2.4" dx="1.5">S</tspan></text>
+<text class="quiet" x="80.50" y="136.13" font-size="2.4">One point when the line enters its dot.</text>
+<g transform="translate(11.75,142.48)"><g transform="scale(1.38)"><circle class="item" cx="0" cy="0" r="1.15"/><path class="item" d="M-0.75,-0.65 Q0.05,0.15 0.8,-0.6"/><path class="item" d="M-0.75,0.65 Q0.05,-0.15 0.8,0.6"/></g></g>
+<text class="ink" x="16.10" y="141.18" font-size="2.7" font-weight="700">Ball<tspan class="label" font-weight="400" font-size="2.4" dx="1.5">B</tspan></text>
+<text class="quiet" x="16.10" y="144.18" font-size="2.4">One point, counted the same way as a stick.</text>
+<g transform="translate(76.15,142.48)"><g transform="scale(1.38)"><rect class="item-fill" x="-1.05" y="-0.36" width="2.1" height="0.72" rx="0.3"/><circle class="item-fill" cx="-1.15" cy="-0.42" r="0.4"/><circle class="item-fill" cx="-1.15" cy="0.42" r="0.4"/><circle class="item-fill" cx="1.15" cy="-0.42" r="0.4"/><circle class="item-fill" cx="1.15" cy="0.42" r="0.4"/></g></g>
+<text class="ink" x="80.50" y="141.18" font-size="2.7" font-weight="700">Treat<tspan class="label" font-weight="400" font-size="2.4" dx="1.5">T</tspan></text>
+<text class="quiet" x="80.50" y="144.18" font-size="2.4">One point, plus three circles inked back.</text>
+</g>
+<g id="how-to-score">
+<text class="title" x="8.40" y="149.73" font-size="4.15" font-weight="700">How to Score</text>
+<line x1="8.40" y1="151.08" x2="131.30" y2="151.08" stroke="#e2d0a0" stroke-width="0.35"/>
+<rect class="formula" x="8.40" y="151.73" width="122.90" height="6.5"/>
+<text class="title" x="69.85" y="155.98" font-size="3.35" text-anchor="middle" font-weight="700">sticks + balls + treats − steps</text>
+<text class="ink" x="8.40" y="161.73" font-size="2.92">Steps are the filled circles, one for each new dot. A find is one</text>
+<text class="ink" x="8.40" y="165.21" font-size="2.92">point. A step is one point the other way. Two sticks, a ball, and a</text>
+<text class="ink" x="8.40" y="168.69" font-size="2.92">treat, in fourteen steps: 2 + 1 + 1 − 14 = −10.</text>
+<text class="ink" x="8.40" y="172.17" font-size="2.92">The vest and the lamp are not in that sum. A one-step detour for a</text>
+<text class="ink" x="8.40" y="175.65" font-size="2.92">find ties the line you already had. A two-step detour loses. The ball</text>
+<text class="ink" x="8.40" y="179.13" font-size="2.92">is allowed to be a bad idea. Higher is better, even below zero.</text>
+<text class="ink" x="8.40" y="182.61" font-size="2.92">Minus seven beats minus twelve. You win by touching the flag.</text>
+<text class="ink" x="8.40" y="186.09" font-size="2.92">The score is how two lines compare, if you want to compare them.</text>
+</g>
+</svg>

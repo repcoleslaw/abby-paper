@@ -1,0 +1,103 @@
+{
+  "level": 19,
+  "name": "The long crossing",
+  "blurb": "Vest, then lamp. Both gates sit on the heavier road.",
+  "aside": "The road down the right edge keeps the treat at F9, the stick at F5, and the ball at C4. It crosses neither gate. It is 10 steps and scores \u22125. The long road takes the vest at D10 before the water, and the lamp at C8 before the arch. It is 12 steps and scores \u22122.",
+  "start": "F10",
+  "flag": "B4",
+  "open": [
+    "F10",
+    "E10",
+    "D10",
+    "C10",
+    "C9",
+    "C8",
+    "D8",
+    "D7",
+    "D6",
+    "C6",
+    "B6",
+    "B5",
+    "B4",
+    "F9",
+    "F8",
+    "F7",
+    "F6",
+    "F5",
+    "E5",
+    "E4",
+    "D4",
+    "C4"
+  ],
+  "water": [
+    "C10"
+  ],
+  "caves": [
+    "D7"
+  ],
+  "pickups": [
+    {
+      "at": "E10",
+      "kind": "treat"
+    },
+    {
+      "at": "F9",
+      "kind": "treat"
+    },
+    {
+      "at": "D10",
+      "kind": "vest"
+    },
+    {
+      "at": "C8",
+      "kind": "lamp"
+    },
+    {
+      "at": "B6",
+      "kind": "stick"
+    },
+    {
+      "at": "C9",
+      "kind": "stick"
+    },
+    {
+      "at": "D6",
+      "kind": "stick"
+    },
+    {
+      "at": "F5",
+      "kind": "stick"
+    },
+    {
+      "at": "B5",
+      "kind": "ball"
+    },
+    {
+      "at": "C4",
+      "kind": "ball"
+    },
+    {
+      "at": "C6",
+      "kind": "ball"
+    }
+  ],
+  "expect": [
+    "F10",
+    "E10",
+    "D10",
+    "C10",
+    "C9",
+    "C8",
+    "D8",
+    "D7",
+    "D6",
+    "C6",
+    "B6",
+    "B5",
+    "B4"
+  ],
+  "checks": {
+    "avoiding_water": -5,
+    "avoiding_cave": -5
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "level": 16,
+  "name": "The far bank",
+  "blurb": "The vest is on the long road. The dry road is the lighter pocket.",
+  "aside": "The dry road keeps the treat at F2, the stick at E5, and the ball at D8. It is 10 steps and scores \u22125. The long road takes the vest at C2 before the water at B3, and the sticks on the far side. It is 12 steps and scores \u22122.",
+  "start": "F1",
+  "flag": "C8",
+  "open": [
+    "F1",
+    "E1",
+    "D1",
+    "D2",
+    "C2",
+    "C3",
+    "B3",
+    "B4",
+    "B5",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "F2",
+    "F3",
+    "F4",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "D8"
+  ],
+  "water": [
+    "C3"
+  ],
+  "pickups": [
+    {
+      "at": "E1",
+      "kind": "treat"
+    },
+    {
+      "at": "F2",
+      "kind": "treat"
+    },
+    {
+      "at": "C2",
+      "kind": "vest"
+    },
+    {
+      "at": "B4",
+      "kind": "stick"
+    },
+    {
+      "at": "C6",
+      "kind": "stick"
+    },
+    {
+      "at": "D1",
+      "kind": "stick"
+    },
+    {
+      "at": "E5",
+      "kind": "stick"
+    },
+    {
+      "at": "B5",
+      "kind": "ball"
+    },
+    {
+      "at": "C7",
+      "kind": "ball"
+    },
+    {
+      "at": "D8",
+      "kind": "ball"
+    }
+  ],
+  "expect": [
+    "F1",
+    "E1",
+    "D1",
+    "D2",
+    "C2",
+    "C3",
+    "B3",
+    "B4",
+    "B5",
+    "C5",
+    "C6",
+    "C7",
+    "C8"
+  ],
+  "checks": {
+    "avoiding_water": -5
+  }
+}

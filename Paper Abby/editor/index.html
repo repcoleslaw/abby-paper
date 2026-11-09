@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paper Abby editor</title>
+  <link rel="stylesheet" href="editor.css">
+</head>
+<body>
+  <div class="page">
+    <header class="top">
+      <div class="title">
+        <h1>Paper Abby</h1>
+        <p>Paint a walk, then test it for the best line.</p>
+      </div>
+      <div class="actions">
+        <button type="button" id="new">New</button>
+        <button type="button" id="import">Import</button>
+        <input id="import-file" type="file" accept="application/json,.json" hidden>
+        <button type="button" id="save">Save to folder</button>
+        <button type="button" id="download">Download</button>
+        <button type="button" id="test" class="primary">Test</button>
+      </div>
+    </header>
+
+    <div class="fields">
+      <label>Level <input id="level-num" type="number" min="1" step="1" inputmode="numeric"></label>
+      <label>Name <input id="level-name" type="text" maxlength="80"></label>
+      <label class="grow">Blurb <input id="level-blurb" type="text" maxlength="240"></label>
+    </div>
+    <p id="status" class="status" role="status"></p>
+
+    <div class="workspace">
+      <aside class="library">
+        <div class="library-head">
+          <h2>Levels</h2>
+          <button type="button" id="delete" class="text">Delete</button>
+        </div>
+        <div id="levels" class="levels"></div>
+      </aside>
+
+      <div class="center">
+        <div id="tools" class="tools"></div>
+        <p class="hint">Drag terrain across the dots. Click a side for a ridge. Click a dot for an item, Abby, or the flag.</p>
+        <div id="board" class="board" data-tool="tree">
+          <div id="grid" class="grid"></div>
+        </div>
+      </div>
+
+      <section class="answer" aria-live="polite">
+        <h2>Answer</h2>
+        <p id="answer-empty" class="quiet">Paint a walk, then test it.</p>
+        <div id="answer-body" hidden>
+          <p><strong>Score.</strong> <span id="score"></span></p>
+          <p class="line"><strong>Line.</strong> <span id="line"></span></p>
+          <p id="tie"></p>
+          <p id="examples-label" class="quiet" hidden></p>
+          <ol id="examples"></ol>
+        </div>
+        <p id="answer-error" class="warn" hidden></p>
+      </section>
+    </div>
+
+    <p id="folder" class="folder">Folder: none yet. Save asks the first time.</p>
+    <footer>
+      <p>From the Paper Abby folder, run <code>py -3 -m http.server 8765</code> and open <code>http://127.0.0.1:8765/editor/</code>. Localhost lets Save write into a folder you pick.</p>
+    </footer>
+  </div>
+  <script src="tools.js"></script>
+  <script src="solver.js"></script>
+  <script src="editor.js"></script>
+</body>
+</html>

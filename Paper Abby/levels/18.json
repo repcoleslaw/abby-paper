@@ -1,0 +1,95 @@
+{
+  "level": 18,
+  "name": "The high cave",
+  "blurb": "An arch on the long road. The lamp is already on the way.",
+  "aside": "The other road keeps the treat at E10, the stick at B9, and the ball at A6. It never reaches the lamp. It is 10 steps and scores \u22125. The cave road takes the lamp at F6 and the arch at E6, and it scores \u22122.",
+  "start": "F10",
+  "flag": "A5",
+  "open": [
+    "F10",
+    "F9",
+    "F8",
+    "F7",
+    "F6",
+    "E6",
+    "D6",
+    "D5",
+    "D4",
+    "C4",
+    "B4",
+    "A4",
+    "A5",
+    "E10",
+    "D10",
+    "D9",
+    "C9",
+    "B9",
+    "B8",
+    "B7",
+    "B6",
+    "A6"
+  ],
+  "caves": [
+    "E6"
+  ],
+  "pickups": [
+    {
+      "at": "E10",
+      "kind": "treat"
+    },
+    {
+      "at": "F9",
+      "kind": "treat"
+    },
+    {
+      "at": "F6",
+      "kind": "lamp"
+    },
+    {
+      "at": "B4",
+      "kind": "stick"
+    },
+    {
+      "at": "B9",
+      "kind": "stick"
+    },
+    {
+      "at": "D5",
+      "kind": "stick"
+    },
+    {
+      "at": "F8",
+      "kind": "stick"
+    },
+    {
+      "at": "A4",
+      "kind": "ball"
+    },
+    {
+      "at": "A6",
+      "kind": "ball"
+    },
+    {
+      "at": "D4",
+      "kind": "ball"
+    }
+  ],
+  "expect": [
+    "F10",
+    "F9",
+    "F8",
+    "F7",
+    "F6",
+    "E6",
+    "D6",
+    "D5",
+    "D4",
+    "C4",
+    "B4",
+    "A4",
+    "A5"
+  ],
+  "checks": {
+    "avoiding_cave": -5
+  }
+}

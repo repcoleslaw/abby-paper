@@ -1,0 +1,21 @@
+{
+  "level": 3,
+  "name": "The cliff",
+  "blurb": "The heavy edge is a cliff. This one makes you go around.",
+  "aside": "E8 and E7 share a side, and that side is the cliff. The walk around scores −9. The ball at E9 is two steps off E8. That walk scores −8, and it is the best line. The stick at A7 is two steps off the start. Two steps for one stick loses, and that walk scores −10.",
+  "start": "A8",
+  "flag": "F4",
+  "open": ["A8", "B8", "C8", "D8", "E8", "F8", "F7", "E7", "E6", "E5", "F5", "F4", "A7", "B7", "D9", "E9"],
+  "cliffs": [["E8", "E7"]],
+  "pickups": [
+    {"at": "D8", "kind": "treat"},
+    {"at": "F8", "kind": "stick"},
+    {"at": "A7", "kind": "stick"},
+    {"at": "E9", "kind": "ball"}
+  ],
+  "expect": ["A8", "B8", "C8", "D8", "D9", "E9", "E8", "F8", "F7", "E7", "E6", "E5", "F5", "F4"],
+  "checks": {
+    "without_cliffs": -7,
+    "with_ball": -8
+  }
+}

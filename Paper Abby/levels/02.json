@@ -1,0 +1,17 @@
+{
+  "level": 2,
+  "name": "Around the trees",
+  "blurb": "Trees have no dot. Another stick and a ball sit on walks that still reach the flag.",
+  "aside": "The other lane runs A8, A7, A6, A5, B5, C5. It is the same number of steps and it skips the treat, so it scores −8. The stick at A4 is a longer left-hand walk, A5, A4, B4, C4, and it reaches the flag at −8. The ball at D4 is two steps past the first stick, and that walk scores −8 as well. The best line scores −7.",
+  "start": "A10",
+  "flag": "C3",
+  "open": ["A10", "A9", "A8", "B8", "C8", "C7", "C6", "C5", "C4", "C3", "A7", "A6", "A5", "B5", "A4", "B4", "D5", "D4", "D3"],
+  "pickups": [
+    {"at": "B8", "kind": "treat"},
+    {"at": "C5", "kind": "stick"},
+    {"at": "A4", "kind": "stick"},
+    {"at": "D4", "kind": "ball"}
+  ],
+  "expect": ["A10", "A9", "A8", "B8", "C8", "C7", "C6", "C5", "C4", "C3"],
+  "checks": {"with_ball": -6}
+}

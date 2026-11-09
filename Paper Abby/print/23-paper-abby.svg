@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="5.5in" height="8.5in" viewBox="0 0 139.7 215.9">
+<!--
+  Paper Abby. Print at actual size, 5.5 by 8.5 inches.
+  Groups: header, grid, terrain, dots, items, journal, legend.
+  Recolor the sheet from the style block. Delete one obstacle by its id,
+  for example tree-C4 or cliff-D8-D7. Moving a gate belongs in the level
+  file, then run the tool again so the answer stays true.
+-->
+<style>
+  text { font-family: Georgia, 'Palatino Linotype', Palatino, 'Times New Roman', serif; }
+  .ink { fill: #1c1915; }
+  .muted { fill: #5e564c; }
+  .paper { fill: #fbf6ee; }
+  .open { fill: #fffdf8; }
+  .tree { fill: #e4f0da; }
+  .canopy { fill: #d5e7c6; stroke: #243024; stroke-width: 0.32; }
+  .trunk { stroke: #243024; stroke-width: 0.4; stroke-linecap: round; }
+  .water { fill: #d5eaf2; }
+  .wave { fill: none; stroke: #1d4c5c; stroke-width: 0.28; stroke-linecap: round; }
+  .cave { fill: #e7e0d6; }
+  .arch { fill: #d4cdc2; stroke: #1c1915; stroke-width: 0.35; }
+  .cliff { stroke: #3a2c1e; stroke-linecap: round; }
+  .gridline { fill: none; stroke: #cfc6b8; stroke-width: 0.28; }
+  .frame { fill: none; stroke: #1c1915; stroke-width: 0.45; }
+  .dot { fill: #fffdf8; stroke: #1c1915; stroke-width: 0.38; }
+  .item { fill: none; stroke: #1c1915; stroke-width: 0.36; stroke-linecap: round; stroke-linejoin: round; }
+  .item-fill { fill: #1c1915; stroke: none; }
+  .answer-line { fill: none; stroke: #9c2f2f; stroke-width: 1.15; stroke-linecap: round; stroke-linejoin: round; }
+  .answer-ink { fill: #9c2f2f; }
+</style>
+<title>Paper Abby 23. The high water</title>
+<rect class="paper" x="0" y="0" width="139.7" height="215.9"/>
+<rect class="frame" x="4.2" y="4.2" width="131.29999999999998" height="207.5"/>
+<g id="header">
+<text class="muted" x="8" y="10" font-size="2.3" letter-spacing="0.22">PAPER APP</text>
+<text class="ink" x="8" y="17.2" font-size="7.2">Paper Abby</text>
+<text class="ink" x="8" y="22.6" font-size="3.3">Level 23<tspan class="muted">   The high water</tspan></text>
+<text class="muted" x="8" y="27.4" font-size="2.7">The water is the long way. The sticks wait on the far side of it.</text>
+</g>
+<g id="grid">
+<rect class="open" x="10.00" y="33.00" width="12.0" height="12.0"/>
+<rect class="open" x="22.00" y="33.00" width="12.0" height="12.0"/>
+<rect class="open" x="34.00" y="33.00" width="12.0" height="12.0"/>
+<rect class="open" x="46.00" y="33.00" width="12.0" height="12.0"/>
+<rect class="tree" x="58.00" y="33.00" width="12.0" height="12.0"/>
+<rect class="tree" x="70.00" y="33.00" width="12.0" height="12.0"/>
+<rect class="open" x="10.00" y="45.00" width="12.0" height="12.0"/>
+<rect class="tree" x="22.00" y="45.00" width="12.0" height="12.0"/>
+<rect class="tree" x="34.00" y="45.00" width="12.0" height="12.0"/>
+<rect class="open" x="46.00" y="45.00" width="12.0" height="12.0"/>
+<rect class="tree" x="58.00" y="45.00" width="12.0" height="12.0"/>
+<rect class="tree" x="70.00" y="45.00" width="12.0" height="12.0"/>
+<rect class="open" x="10.00" y="57.00" width="12.0" height="12.0"/>
+<rect class="tree" x="22.00" y="57.00" width="12.0" height="12.0"/>
+<rect class="tree" x="34.00" y="57.00" width="12.0" height="12.0"/>
+<rect class="water" x="46.00" y="57.00" width="12.0" height="12.0"/>
+<rect class="tree" x="58.00" y="57.00" width="12.0" height="12.0"/>
+<rect class="tree" x="70.00" y="57.00" width="12.0" height="12.0"/>
+<rect class="open" x="10.00" y="69.00" width="12.0" height="12.0"/>
+<rect class="tree" x="22.00" y="69.00" width="12.0" height="12.0"/>
+<rect class="tree" x="34.00" y="69.00" width="12.0" height="12.0"/>
+<rect class="open" x="46.00" y="69.00" width="12.0" height="12.0"/>
+<rect class="tree" x="58.00" y="69.00" width="12.0" height="12.0"/>
+<rect class="tree" x="70.00" y="69.00" width="12.0" height="12.0"/>
+<rect class="open" x="10.00" y="81.00" width="12.0" height="12.0"/>
+<rect class="tree" x="22.00" y="81.00" width="12.0" height="12.0"/>
+<rect class="open" x="34.00" y="81.00" width="12.0" height="12.0"/>
+<rect class="open" x="46.00" y="81.00" width="12.0" height="12.0"/>
+<rect class="tree" x="58.00" y="81.00" width="12.0" height="12.0"/>
+<rect class="tree" x="70.00" y="81.00" width="12.0" height="12.0"/>
+<rect class="open" x="10.00" y="93.00" width="12.0" height="12.0"/>
+<rect class="tree" x="22.00" y="93.00" width="12.0" height="12.0"/>
+<rect class="open" x="34.00" y="93.00" width="12.0" height="12.0"/>
+<rect class="tree" x="46.00" y="93.00" width="12.0" height="12.0"/>
+<rect class="tree" x="58.00" y="93.00" width="12.0" height="12.0"/>
+<rect class="tree" x="70.00" y="93.00" width="12.0" height="12.0"/>
+<rect class="open" x="10.00" y="105.00" width="12.0" height="12.0"/>
+<rect class="tree" x="22.00" y="105.00" width="12.0" height="12.0"/>
+<rect class="open" x="34.00" y="105.00" width="12.0" height="12.0"/>
+<rect class="tree" x="46.00" y="105.00" width="12.0" height="12.0"/>
+<rect class="tree" x="58.00" y="105.00" width="12.0" height="12.0"/>
+<rect class="tree" x="70.00" y="105.00" width="12.0" height="12.0"/>
+<rect class="open" x="10.00" y="117.00" width="12.0" height="12.0"/>
+<rect class="open" x="22.00" y="117.00" width="12.0" height="12.0"/>
+<rect class="open" x="34.00" y="117.00" width="12.0" height="12.0"/>
+<rect class="tree" x="46.00" y="117.00" width="12.0" height="12.0"/>
+<rect class="tree" x="58.00" y="117.00" width="12.0" height="12.0"/>
+<rect class="tree" x="70.00" y="117.00" width="12.0" height="12.0"/>
+<rect class="tree" x="10.00" y="129.00" width="12.0" height="12.0"/>
+<rect class="tree" x="22.00" y="129.00" width="12.0" height="12.0"/>
+<rect class="tree" x="34.00" y="129.00" width="12.0" height="12.0"/>
+<rect class="tree" x="46.00" y="129.00" width="12.0" height="12.0"/>
+<rect class="tree" x="58.00" y="129.00" width="12.0" height="12.0"/>
+<rect class="tree" x="70.00" y="129.00" width="12.0" height="12.0"/>
+<rect class="tree" x="10.00" y="141.00" width="12.0" height="12.0"/>
+<rect class="tree" x="22.00" y="141.00" width="12.0" height="12.0"/>
+<rect class="tree" x="34.00" y="141.00" width="12.0" height="12.0"/>
+<rect class="tree" x="46.00" y="141.00" width="12.0" height="12.0"/>
+<rect class="tree" x="58.00" y="141.00" width="12.0" height="12.0"/>
+<rect class="tree" x="70.00" y="141.00" width="12.0" height="12.0"/>
+<line class="gridline" x1="10.0" y1="33.00" x2="82.00" y2="33.00"/>
+<line class="gridline" x1="10.0" y1="45.00" x2="82.00" y2="45.00"/>
+<line class="gridline" x1="10.0" y1="57.00" x2="82.00" y2="57.00"/>
+<line class="gridline" x1="10.0" y1="69.00" x2="82.00" y2="69.00"/>
+<line class="gridline" x1="10.0" y1="81.00" x2="82.00" y2="81.00"/>
+<line class="gridline" x1="10.0" y1="93.00" x2="82.00" y2="93.00"/>
+<line class="gridline" x1="10.0" y1="105.00" x2="82.00" y2="105.00"/>
+<line class="gridline" x1="10.0" y1="117.00" x2="82.00" y2="117.00"/>
+<line class="gridline" x1="10.0" y1="129.00" x2="82.00" y2="129.00"/>
+<line class="gridline" x1="10.0" y1="141.00" x2="82.00" y2="141.00"/>
+<line class="gridline" x1="10.0" y1="153.00" x2="82.00" y2="153.00"/>
+<line class="gridline" x1="10.00" y1="33.0" x2="10.00" y2="153.00"/>
+<line class="gridline" x1="22.00" y1="33.0" x2="22.00" y2="153.00"/>
+<line class="gridline" x1="34.00" y1="33.0" x2="34.00" y2="153.00"/>
+<line class="gridline" x1="46.00" y1="33.0" x2="46.00" y2="153.00"/>
+<line class="gridline" x1="58.00" y1="33.0" x2="58.00" y2="153.00"/>
+<line class="gridline" x1="70.00" y1="33.0" x2="70.00" y2="153.00"/>
+<line class="gridline" x1="82.00" y1="33.0" x2="82.00" y2="153.00"/>
+<rect class="frame" x="10.0" y="33.0" width="72.0" height="120.0"/>
+<text class="muted" x="16.00" y="31.4" font-size="2.4" text-anchor="middle">A</text>
+<text class="muted" x="28.00" y="31.4" font-size="2.4" text-anchor="middle">B</text>
+<text class="muted" x="40.00" y="31.4" font-size="2.4" text-anchor="middle">C</text>
+<text class="muted" x="52.00" y="31.4" font-size="2.4" text-anchor="middle">D</text>
+<text class="muted" x="64.00" y="31.4" font-size="2.4" text-anchor="middle">E</text>
+<text class="muted" x="76.00" y="31.4" font-size="2.4" text-anchor="middle">F</text>
+<text class="muted" x="8.5" y="39.80" font-size="2.3" text-anchor="end">1</text>
+<text class="muted" x="8.5" y="51.80" font-size="2.3" text-anchor="end">2</text>
+<text class="muted" x="8.5" y="63.80" font-size="2.3" text-anchor="end">3</text>
+<text class="muted" x="8.5" y="75.80" font-size="2.3" text-anchor="end">4</text>
+<text class="muted" x="8.5" y="87.80" font-size="2.3" text-anchor="end">5</text>
+<text class="muted" x="8.5" y="99.80" font-size="2.3" text-anchor="end">6</text>
+<text class="muted" x="8.5" y="111.80" font-size="2.3" text-anchor="end">7</text>
+<text class="muted" x="8.5" y="123.80" font-size="2.3" text-anchor="end">8</text>
+<text class="muted" x="8.5" y="135.80" font-size="2.3" text-anchor="end">9</text>
+<text class="muted" x="8.5" y="147.80" font-size="2.3" text-anchor="end">10</text>
+</g>
+<g id="terrain">
+<g id="tree-E1" transform="translate(64.00,39.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-F1" transform="translate(76.00,39.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-B2" transform="translate(28.00,51.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-C2" transform="translate(40.00,51.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-E2" transform="translate(64.00,51.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-F2" transform="translate(76.00,51.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-B3" transform="translate(28.00,63.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-C3" transform="translate(40.00,63.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="water-D3" transform="translate(52.00,63.00)">
+<path class="wave" d="M-3.6,-1.7 Q-1.8,-2.45 0,-1.7 T3.6,-1.7"/>
+<path class="wave" d="M-3.6,0.0 Q-1.8,-0.75 0,0.0 T3.6,0.0"/>
+<path class="wave" d="M-3.6,1.7 Q-1.8,0.95 0,1.7 T3.6,1.7"/>
+</g>
+<g id="tree-E3" transform="translate(64.00,63.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-F3" transform="translate(76.00,63.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-B4" transform="translate(28.00,75.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-C4" transform="translate(40.00,75.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-E4" transform="translate(64.00,75.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-F4" transform="translate(76.00,75.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-B5" transform="translate(28.00,87.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-E5" transform="translate(64.00,87.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-F5" transform="translate(76.00,87.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-B6" transform="translate(28.00,99.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-D6" transform="translate(52.00,99.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-E6" transform="translate(64.00,99.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-F6" transform="translate(76.00,99.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-B7" transform="translate(28.00,111.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-D7" transform="translate(52.00,111.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-E7" transform="translate(64.00,111.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-F7" transform="translate(76.00,111.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-D8" transform="translate(52.00,123.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-E8" transform="translate(64.00,123.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-F8" transform="translate(76.00,123.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-A9" transform="translate(16.00,135.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-B9" transform="translate(28.00,135.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-C9" transform="translate(40.00,135.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-D9" transform="translate(52.00,135.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-E9" transform="translate(64.00,135.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-F9" transform="translate(76.00,135.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-A10" transform="translate(16.00,147.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-B10" transform="translate(28.00,147.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-C10" transform="translate(40.00,147.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-D10" transform="translate(52.00,147.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-E10" transform="translate(64.00,147.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+<g id="tree-F10" transform="translate(76.00,147.00)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+</g>
+<g id="dots">
+<circle class="dot" cx="16.00" cy="39.00" r="0.72"/>
+<circle class="dot" cx="28.00" cy="39.00" r="0.72"/>
+<circle class="dot" cx="40.00" cy="39.00" r="0.72"/>
+<circle class="dot" cx="52.00" cy="39.00" r="0.72"/>
+<circle class="dot" cx="16.00" cy="51.00" r="0.72"/>
+<circle class="dot" cx="52.00" cy="51.00" r="0.72"/>
+<circle class="dot" cx="16.00" cy="63.00" r="0.72"/>
+<circle class="dot" cx="52.00" cy="63.00" r="0.72"/>
+<circle class="dot" cx="16.00" cy="75.00" r="0.72"/>
+<circle class="dot" cx="52.00" cy="75.00" r="0.72"/>
+<circle class="dot" cx="16.00" cy="87.00" r="0.72"/>
+<circle class="dot" cx="40.00" cy="87.00" r="0.72"/>
+<circle class="dot" cx="52.00" cy="87.00" r="0.72"/>
+<circle class="dot" cx="16.00" cy="99.00" r="0.72"/>
+<circle class="dot" cx="40.00" cy="99.00" r="0.72"/>
+<circle class="dot" cx="16.00" cy="111.00" r="0.72"/>
+<circle class="dot" cx="40.00" cy="111.00" r="0.72"/>
+<circle class="dot" cx="16.00" cy="123.00" r="0.72"/>
+<circle class="dot" cx="28.00" cy="123.00" r="0.72"/>
+<circle class="dot" cx="40.00" cy="123.00" r="0.72"/>
+</g>
+<g id="items">
+<g id="treat-A2" transform="translate(16.00,47.85)">
+<rect class="item-fill" x="-1.05" y="-0.36" width="2.1" height="0.72" rx="0.3"/><circle class="item-fill" cx="-1.15" cy="-0.42" r="0.4"/><circle class="item-fill" cx="-1.15" cy="0.42" r="0.4"/><circle class="item-fill" cx="1.15" cy="-0.42" r="0.4"/><circle class="item-fill" cx="1.15" cy="0.42" r="0.4"/>
+</g>
+<text class="muted" x="19.30" y="55.15" font-size="1.7" text-anchor="middle">T</text>
+<g id="treat-B1" transform="translate(28.00,35.85)">
+<rect class="item-fill" x="-1.05" y="-0.36" width="2.1" height="0.72" rx="0.3"/><circle class="item-fill" cx="-1.15" cy="-0.42" r="0.4"/><circle class="item-fill" cx="-1.15" cy="0.42" r="0.4"/><circle class="item-fill" cx="1.15" cy="-0.42" r="0.4"/><circle class="item-fill" cx="1.15" cy="0.42" r="0.4"/>
+</g>
+<text class="muted" x="31.30" y="43.15" font-size="1.7" text-anchor="middle">T</text>
+<g id="vest-D2" transform="translate(52.00,47.85)">
+<path class="item" d="M-1.25,-1.35 L-1.25,1.25 L1.25,1.25 L1.25,-1.35 L0.42,-1.35 L0.42,-0.25 L-0.42,-0.25 L-0.42,-1.35 Z"/><line class="item" x1="0" y1="-0.25" x2="0" y2="1.25"/>
+</g>
+<text class="muted" x="55.30" y="55.15" font-size="1.7" text-anchor="middle">V</text>
+<g id="stick-A6" transform="translate(16.00,95.85)">
+<line class="item" x1="-1.45" y1="1.05" x2="1.35" y2="-1.15"/><line class="item" x1="0.05" y1="-0.15" x2="1.1" y2="0.5"/>
+</g>
+<text class="muted" x="19.30" y="103.15" font-size="1.7" text-anchor="middle">S</text>
+<g id="stick-C1" transform="translate(40.00,35.85)">
+<line class="item" x1="-1.45" y1="1.05" x2="1.35" y2="-1.15"/><line class="item" x1="0.05" y1="-0.15" x2="1.1" y2="0.5"/>
+</g>
+<text class="muted" x="43.30" y="43.15" font-size="1.7" text-anchor="middle">S</text>
+<g id="stick-C6" transform="translate(40.00,95.85)">
+<line class="item" x1="-1.45" y1="1.05" x2="1.35" y2="-1.15"/><line class="item" x1="0.05" y1="-0.15" x2="1.1" y2="0.5"/>
+</g>
+<text class="muted" x="43.30" y="103.15" font-size="1.7" text-anchor="middle">S</text>
+<g id="stick-D4" transform="translate(52.00,71.85)">
+<line class="item" x1="-1.45" y1="1.05" x2="1.35" y2="-1.15"/><line class="item" x1="0.05" y1="-0.15" x2="1.1" y2="0.5"/>
+</g>
+<text class="muted" x="55.30" y="79.15" font-size="1.7" text-anchor="middle">S</text>
+<g id="ball-B8" transform="translate(28.00,119.85)">
+<circle class="item" cx="0" cy="0" r="1.15"/><path class="item" d="M-0.75,-0.65 Q0.05,0.15 0.8,-0.6"/><path class="item" d="M-0.75,0.65 Q0.05,-0.15 0.8,0.6"/>
+</g>
+<text class="muted" x="31.30" y="127.15" font-size="1.7" text-anchor="middle">B</text>
+<g id="ball-C7" transform="translate(40.00,107.85)">
+<circle class="item" cx="0" cy="0" r="1.15"/><path class="item" d="M-0.75,-0.65 Q0.05,0.15 0.8,-0.6"/><path class="item" d="M-0.75,0.65 Q0.05,-0.15 0.8,0.6"/>
+</g>
+<text class="muted" x="43.30" y="115.15" font-size="1.7" text-anchor="middle">B</text>
+<g id="ball-D5" transform="translate(52.00,83.85)">
+<circle class="item" cx="0" cy="0" r="1.15"/><path class="item" d="M-0.75,-0.65 Q0.05,0.15 0.8,-0.6"/><path class="item" d="M-0.75,0.65 Q0.05,-0.15 0.8,0.6"/>
+</g>
+<text class="muted" x="55.30" y="91.15" font-size="1.7" text-anchor="middle">B</text>
+<g id="abby" transform="translate(16.00,35.85)">
+<ellipse class="item-fill" cx="0" cy="0.55" rx="1.22" ry="0.92"/><circle class="item-fill" cx="-1.05" cy="-0.82" r="0.4"/><circle class="item-fill" cx="-0.36" cy="-1.22" r="0.4"/><circle class="item-fill" cx="0.38" cy="-1.22" r="0.4"/><circle class="item-fill" cx="1.08" cy="-0.78" r="0.4"/>
+</g>
+<g id="flag" transform="translate(40.00,119.85)">
+<line class="item" x1="-0.15" y1="-1.7" x2="-0.15" y2="1.55"/><path class="item-fill" d="M-0.15,-1.6 L1.65,-0.8 L-0.15,-0.05 Z"/>
+</g>
+</g>
+<g id="journal">
+<text class="ink" x="87.00" y="36.20" font-size="3.6">Journal</text>
+<text class="muted" x="87.00" y="41.00" font-size="2.4">Energy 12. A treat adds 3.</text>
+<circle fill="none" stroke="#1c1915" stroke-width="0.35" cx="88.15" cy="45.35" r="1.15"/>
+<circle fill="none" stroke="#1c1915" stroke-width="0.35" cx="91.60" cy="45.35" r="1.15"/>
+<circle fill="none" stroke="#1c1915" stroke-width="0.35" cx="95.05" cy="45.35" r="1.15"/>
+<circle fill="none" stroke="#1c1915" stroke-width="0.35" cx="98.50" cy="45.35" r="1.15"/>
+<circle fill="none" stroke="#1c1915" stroke-width="0.35" cx="101.95" cy="45.35" r="1.15"/>
+<circle fill="none" stroke="#1c1915" stroke-width="0.35" cx="105.40" cy="45.35" r="1.15"/>
+<circle fill="none" stroke="#1c1915" stroke-width="0.35" cx="108.85" cy="45.35" r="1.15"/>
+<circle fill="none" stroke="#1c1915" stroke-width="0.35" cx="112.30" cy="45.35" r="1.15"/>
+<circle fill="none" stroke="#1c1915" stroke-width="0.35" cx="115.75" cy="45.35" r="1.15"/>
+<circle fill="none" stroke="#1c1915" stroke-width="0.35" cx="119.20" cy="45.35" r="1.15"/>
+<circle fill="none" stroke="#1c1915" stroke-width="0.35" cx="122.65" cy="45.35" r="1.15"/>
+<circle fill="none" stroke="#1c1915" stroke-width="0.35" cx="126.10" cy="45.35" r="1.15"/>
+<circle fill="none" stroke="#1c1915" stroke-width="0.28" stroke-dasharray="0.42 0.38" cx="88.15" cy="49.35" r="1.15"/>
+<circle fill="none" stroke="#1c1915" stroke-width="0.28" stroke-dasharray="0.42 0.38" cx="91.60" cy="49.35" r="1.15"/>
+<circle fill="none" stroke="#1c1915" stroke-width="0.28" stroke-dasharray="0.42 0.38" cx="95.05" cy="49.35" r="1.15"/>
+<circle fill="none" stroke="#1c1915" stroke-width="0.28" stroke-dasharray="0.42 0.38" cx="98.50" cy="49.35" r="1.15"/>
+<circle fill="none" stroke="#1c1915" stroke-width="0.28" stroke-dasharray="0.42 0.38" cx="101.95" cy="49.35" r="1.15"/>
+<circle fill="none" stroke="#1c1915" stroke-width="0.28" stroke-dasharray="0.42 0.38" cx="105.40" cy="49.35" r="1.15"/>
+<circle fill="none" stroke="#1c1915" stroke-width="0.28" stroke-dasharray="0.42 0.38" cx="108.85" cy="49.35" r="1.15"/>
+<circle fill="none" stroke="#1c1915" stroke-width="0.28" stroke-dasharray="0.42 0.38" cx="112.30" cy="49.35" r="1.15"/>
+<circle fill="none" stroke="#1c1915" stroke-width="0.28" stroke-dasharray="0.42 0.38" cx="115.75" cy="49.35" r="1.15"/>
+<circle fill="none" stroke="#1c1915" stroke-width="0.28" stroke-dasharray="0.42 0.38" cx="119.20" cy="49.35" r="1.15"/>
+<circle fill="none" stroke="#1c1915" stroke-width="0.28" stroke-dasharray="0.42 0.38" cx="122.65" cy="49.35" r="1.15"/>
+<circle fill="none" stroke="#1c1915" stroke-width="0.28" stroke-dasharray="0.42 0.38" cx="126.10" cy="49.35" r="1.15"/>
+<text class="muted" x="87.00" y="55.40" font-size="2.15">Fill one each new dot.</text>
+<text class="muted" x="87.00" y="58.70" font-size="2.15">Ink three dashed circles per treat.</text>
+<rect x="87.00" y="63.90" width="2.4" height="2.4" fill="#fffdf8" stroke="#1c1915" stroke-width="0.35"/>
+<text class="ink" x="90.60" y="66.05" font-size="2.55">Vest  D2</text>
+<rect x="87.00" y="68.70" width="2.4" height="2.4" fill="#fffdf8" stroke="#1c1915" stroke-width="0.35"/>
+<text class="ink" x="90.60" y="70.85" font-size="2.55">Stick  A6</text>
+<rect x="87.00" y="73.50" width="2.4" height="2.4" fill="#fffdf8" stroke="#1c1915" stroke-width="0.35"/>
+<text class="ink" x="90.60" y="75.65" font-size="2.55">Stick  C1</text>
+<rect x="87.00" y="78.30" width="2.4" height="2.4" fill="#fffdf8" stroke="#1c1915" stroke-width="0.35"/>
+<text class="ink" x="90.60" y="80.45" font-size="2.55">Stick  C6</text>
+<rect x="87.00" y="83.10" width="2.4" height="2.4" fill="#fffdf8" stroke="#1c1915" stroke-width="0.35"/>
+<text class="ink" x="90.60" y="85.25" font-size="2.55">Stick  D4</text>
+<rect x="87.00" y="87.90" width="2.4" height="2.4" fill="#fffdf8" stroke="#1c1915" stroke-width="0.35"/>
+<text class="ink" x="90.60" y="90.05" font-size="2.55">Ball  B8</text>
+<rect x="87.00" y="92.70" width="2.4" height="2.4" fill="#fffdf8" stroke="#1c1915" stroke-width="0.35"/>
+<text class="ink" x="90.60" y="94.85" font-size="2.55">Ball  C7</text>
+<rect x="87.00" y="97.50" width="2.4" height="2.4" fill="#fffdf8" stroke="#1c1915" stroke-width="0.35"/>
+<text class="ink" x="90.60" y="99.65" font-size="2.55">Ball  D5</text>
+<rect x="87.00" y="102.30" width="2.4" height="2.4" fill="#fffdf8" stroke="#1c1915" stroke-width="0.35"/>
+<text class="ink" x="90.60" y="104.45" font-size="2.55">Treat  A2</text>
+<rect x="87.00" y="107.10" width="2.4" height="2.4" fill="#fffdf8" stroke="#1c1915" stroke-width="0.35"/>
+<text class="ink" x="90.60" y="109.25" font-size="2.55">Treat  B1</text>
+<rect x="87.00" y="113.10" width="2.4" height="2.4" fill="#fffdf8" stroke="#1c1915" stroke-width="0.35"/>
+<text class="ink" x="90.60" y="115.25" font-size="2.55">Flag  C8</text>
+<text class="muted" x="87.00" y="119.10" font-size="2.3">Steps</text>
+<line stroke="#1c1915" stroke-width="0.3" x1="99.00" y1="119.50" x2="131.70" y2="119.50"/>
+<text class="muted" x="87.00" y="124.10" font-size="2.15">sticks + balls + treats − steps</text>
+<text class="ink" x="87.00" y="128.70" font-size="2.7">Score</text>
+<line stroke="#1c1915" stroke-width="0.3" x1="100.00" y1="129.20" x2="131.70" y2="129.20"/>
+</g>
+<g id="legend">
+<g transform="translate(13.00,164.00)"><line class="trunk" x1="0" y1="0.4" x2="0" y2="2.4"/><circle class="canopy" cx="0.2" cy="-1.1" r="1.55"/><circle class="canopy" cx="-0.7" cy="0.15" r="1.05"/></g>
+<text class="muted" x="13.00" y="171.20" font-size="2.15" text-anchor="middle">Tree</text>
+<g transform="translate(26.60,164.00)"><line class="cliff" x1="0" y1="-2.2" x2="0" y2="2.2" stroke-width="0.9"/><line class="cliff" x1="-1.2" y1="-1.1" x2="1.2" y2="-1.1" stroke-width="0.32"/><line class="cliff" x1="-1.2" y1="0" x2="1.2" y2="0" stroke-width="0.32"/><line class="cliff" x1="-1.2" y1="1.1" x2="1.2" y2="1.1" stroke-width="0.32"/></g>
+<text class="muted" x="26.60" y="171.20" font-size="2.15" text-anchor="middle">Cliff</text>
+<g transform="translate(40.20,164.00)"><rect class="water" x="-2.4" y="-2.2" width="4.8" height="4.4"/><path class="wave" d="M-2,-1.1 Q-1,-1.7 0,-1.1 T2,-1.1"/><path class="wave" d="M-2,0.2 Q-1,-0.4 0,0.2 T2,0.2"/><path class="wave" d="M-2,1.4 Q-1,0.8 0,1.4 T2,1.4"/></g>
+<text class="muted" x="40.20" y="171.20" font-size="2.15" text-anchor="middle">Water</text>
+<g transform="translate(53.80,164.00)"><path class="arch" d="M-2,2 L-2,-0.4 Q-2,-2.2 0,-2.2 Q2,-2.2 2,-0.4 L2,2 Z"/></g>
+<text class="muted" x="53.80" y="171.20" font-size="2.15" text-anchor="middle">Cave</text>
+<g transform="translate(67.40,164.00)"><path class="item" d="M-1.25,-1.35 L-1.25,1.25 L1.25,1.25 L1.25,-1.35 L0.42,-1.35 L0.42,-0.25 L-0.42,-0.25 L-0.42,-1.35 Z"/><line class="item" x1="0" y1="-0.25" x2="0" y2="1.25"/></g>
+<text class="muted" x="67.40" y="171.20" font-size="2.15" text-anchor="middle">Vest</text>
+<g transform="translate(81.00,164.00)"><path class="item" d="M-1.35,-0.15 Q0,-1.45 1.35,-0.15"/><circle class="item" cx="0.15" cy="0.35" r="0.62"/><line class="item" x1="0.7" y1="0.05" x2="1.35" y2="-0.35"/><line class="item" x1="0.85" y1="0.45" x2="1.55" y2="0.45"/><line class="item" x1="0.7" y1="0.85" x2="1.3" y2="1.2"/></g>
+<text class="muted" x="81.00" y="171.20" font-size="2.15" text-anchor="middle">Lamp</text>
+<g transform="translate(94.60,164.00)"><line class="item" x1="-1.45" y1="1.05" x2="1.35" y2="-1.15"/><line class="item" x1="0.05" y1="-0.15" x2="1.1" y2="0.5"/></g>
+<text class="muted" x="94.60" y="171.20" font-size="2.15" text-anchor="middle">Stick</text>
+<g transform="translate(108.20,164.00)"><circle class="item" cx="0" cy="0" r="1.15"/><path class="item" d="M-0.75,-0.65 Q0.05,0.15 0.8,-0.6"/><path class="item" d="M-0.75,0.65 Q0.05,-0.15 0.8,0.6"/></g>
+<text class="muted" x="108.20" y="171.20" font-size="2.15" text-anchor="middle">Ball</text>
+<g transform="translate(121.80,164.00)"><rect class="item-fill" x="-1.05" y="-0.36" width="2.1" height="0.72" rx="0.3"/><circle class="item-fill" cx="-1.15" cy="-0.42" r="0.4"/><circle class="item-fill" cx="-1.15" cy="0.42" r="0.4"/><circle class="item-fill" cx="1.15" cy="-0.42" r="0.4"/><circle class="item-fill" cx="1.15" cy="0.42" r="0.4"/></g>
+<text class="muted" x="121.80" y="171.20" font-size="2.15" text-anchor="middle">Treat</text>
+<text class="ink" x="8" y="176.50" font-size="2.35">Paw is Abby. Flag is the last dot. Trees have no dot. A heavy edge is a cliff: go around.</text>
+<text class="ink" x="8" y="181.00" font-size="2.35">Waves need the vest. An arch needs the lamp. Pick it up, then step in.</text>
+<text class="ink" x="8" y="185.50" font-size="2.35">One circle each new dot. A treat inks three more. None left: erase and redraw.</text>
+<text class="ink" x="8" y="190.00" font-size="2.35">The flag may take the last circle. Score is sticks + balls + treats − steps. Higher is better.</text>
+</g>
+<text class="muted" x="69.85" y="210.2" font-size="2.3" text-anchor="middle">Erase is free. Higher is better.</text>
+</svg>

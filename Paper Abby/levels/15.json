@@ -1,0 +1,95 @@
+{
+  "level": 15,
+  "name": "The creek",
+  "blurb": "Cross after the vest. The far pocket is worth the two steps.",
+  "aside": "The dry road keeps the treat at F9, the stick at E6, and the ball at D3. It never takes the vest. It is 10 steps and scores \u22125. The creek takes the vest at C9 and steps into the water at B9. That line is 12 steps, and the pocket past the water makes it score \u22122.",
+  "start": "F10",
+  "flag": "C3",
+  "open": [
+    "F10",
+    "E10",
+    "D10",
+    "D9",
+    "C9",
+    "B9",
+    "B8",
+    "B7",
+    "B6",
+    "B5",
+    "B4",
+    "C4",
+    "C3",
+    "F9",
+    "F8",
+    "E8",
+    "E7",
+    "E6",
+    "E5",
+    "E4",
+    "E3",
+    "D3"
+  ],
+  "water": [
+    "B9"
+  ],
+  "pickups": [
+    {
+      "at": "E10",
+      "kind": "treat"
+    },
+    {
+      "at": "F9",
+      "kind": "treat"
+    },
+    {
+      "at": "C9",
+      "kind": "vest"
+    },
+    {
+      "at": "B4",
+      "kind": "stick"
+    },
+    {
+      "at": "B7",
+      "kind": "stick"
+    },
+    {
+      "at": "D10",
+      "kind": "stick"
+    },
+    {
+      "at": "E6",
+      "kind": "stick"
+    },
+    {
+      "at": "B6",
+      "kind": "ball"
+    },
+    {
+      "at": "C4",
+      "kind": "ball"
+    },
+    {
+      "at": "D3",
+      "kind": "ball"
+    }
+  ],
+  "expect": [
+    "F10",
+    "E10",
+    "D10",
+    "D9",
+    "C9",
+    "B9",
+    "B8",
+    "B7",
+    "B6",
+    "B5",
+    "B4",
+    "C4",
+    "C3"
+  ],
+  "checks": {
+    "avoiding_water": -5
+  }
+}

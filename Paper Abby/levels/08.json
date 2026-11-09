@@ -1,0 +1,18 @@
+{
+  "level": 8,
+  "name": "Two sticks",
+  "blurb": "Two sticks share one walk. The field around them is open.",
+  "aside": "Both sticks are the corners of one walk: up column A, across row 4, and up column F. The treats at A8 and A6 are on that walk. The line that skips the ball scores −10. The ball at B9 is two steps off the start. She can take it and still reach the flag, and that line scores −9. It is the best line.",
+  "start": "A10",
+  "flag": "F1",
+  "trees": ["B7", "B8", "C7", "C8", "E9", "F9"],
+  "pickups": [
+    {"at": "A8", "kind": "treat"},
+    {"at": "A6", "kind": "treat"},
+    {"at": "A4", "kind": "stick"},
+    {"at": "F4", "kind": "stick"},
+    {"at": "B9", "kind": "ball"}
+  ],
+  "expect": ["A10", "B10", "B9", "A9", "A8", "A7", "A6", "A5", "A4", "B4", "C4", "D4", "E4", "F4", "F3", "F2", "F1"],
+  "checks": {"with_ball": -9}
+}

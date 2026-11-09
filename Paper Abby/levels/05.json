@@ -1,0 +1,22 @@
+{
+  "level": 5,
+  "name": "The lamp",
+  "blurb": "The arch needs the lamp first. The lamp is worth the walk.",
+  "aside": "The long walk around the cave is 15 steps. It takes the stick at F9 and leaves the stick at D5 behind, and it scores −13. The cave walk is 11 steps and scores −9. The ball at D3 is two steps off the cave walk, and that line scores −8. It is the best line. All three reach the flag.",
+  "start": "A10",
+  "flag": "F4",
+  "open": ["A10", "A9", "A8", "B8", "C8", "D8", "D7", "D6", "D5", "D4", "E4", "F4", "C9", "C10", "D10", "E10", "F10", "F9", "F8", "F7", "F6", "F5", "D3", "E3"],
+  "caves": ["D7"],
+  "pickups": [
+    {"at": "B8", "kind": "treat"},
+    {"at": "D8", "kind": "lamp"},
+    {"at": "D5", "kind": "stick"},
+    {"at": "F9", "kind": "stick"},
+    {"at": "D3", "kind": "ball"}
+  ],
+  "expect": ["A10", "A9", "A8", "B8", "C8", "D8", "D7", "D6", "D5", "D4", "D3", "E3", "E4", "F4"],
+  "checks": {
+    "avoiding_cave": -13,
+    "with_ball": -8
+  }
+}

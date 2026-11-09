@@ -1,0 +1,85 @@
+{
+  "level": 13,
+  "name": "The full pocket",
+  "blurb": "Both roads carry two sticks. The extra ball is worth the walk.",
+  "aside": "The long road keeps the treat at B10, the sticks at D10 and D7, and the balls at F6 and E5. It is 12 steps and scores \u22123. The short road keeps the treat at A9, the sticks at B7 and B5, and the ball at D4. It is 10 steps and scores \u22124. The extra ball pays for the two steps.",
+  "start": "A10",
+  "flag": "E4",
+  "open": [
+    "A10",
+    "A9",
+    "A8",
+    "B8",
+    "B7",
+    "B6",
+    "B5",
+    "B4",
+    "C4",
+    "D4",
+    "E4",
+    "B10",
+    "C10",
+    "D10",
+    "D9",
+    "D8",
+    "D7",
+    "E7",
+    "F7",
+    "F6",
+    "F5",
+    "E5"
+  ],
+  "pickups": [
+    {
+      "at": "A9",
+      "kind": "treat"
+    },
+    {
+      "at": "B10",
+      "kind": "treat"
+    },
+    {
+      "at": "B5",
+      "kind": "stick"
+    },
+    {
+      "at": "B7",
+      "kind": "stick"
+    },
+    {
+      "at": "D10",
+      "kind": "stick"
+    },
+    {
+      "at": "D7",
+      "kind": "stick"
+    },
+    {
+      "at": "D4",
+      "kind": "ball"
+    },
+    {
+      "at": "E5",
+      "kind": "ball"
+    },
+    {
+      "at": "F6",
+      "kind": "ball"
+    }
+  ],
+  "expect": [
+    "A10",
+    "B10",
+    "C10",
+    "D10",
+    "D9",
+    "D8",
+    "D7",
+    "E7",
+    "F7",
+    "F6",
+    "F5",
+    "E5",
+    "E4"
+  ]
+}
