@@ -1,17 +1,112 @@
 {
   "level": 7,
-  "name": "The open field",
+  "name": "The Marsh",
   "blurb": "The field is mostly open. The stick and the treat share one line.",
   "aside": "The stick at A2 and the treat are on one line: up column A, then across row 2. That line scores −11. The ball at E1 is a finished walk, up to the top row and back down at the flag. She keeps the stick at A2, spends two extra steps, and scores −12. The stick at C8 is a walk up the right side. It reaches the flag and scores −13.",
   "start": "A10",
   "flag": "F2",
-  "trees": ["C6", "C7", "D6", "D7", "E6", "E7"],
-  "pickups": [
-    {"at": "A7", "kind": "treat"},
-    {"at": "A2", "kind": "stick"},
-    {"at": "C8", "kind": "stick"},
-    {"at": "E1", "kind": "ball"}
+  "trees": [
+    "F1",
+    "B2",
+    "B3",
+    "C3",
+    "F3",
+    "E4",
+    "F5",
+    "C6",
+    "C7",
+    "D7",
+    "E7",
+    "F9",
+    "B10",
+    "D10",
+    "F10"
   ],
-  "expect": ["A10", "A9", "A8", "A7", "A6", "A5", "A4", "A3", "A2", "B2", "C2", "D2", "E2", "F2"],
-  "checks": {"with_ball": -10}
+  "water": [
+    "B1",
+    "C2",
+    "E2",
+    "C4",
+    "F4",
+    "C5",
+    "E5",
+    "B6",
+    "D6",
+    "E6",
+    "B7",
+    "C9",
+    "D9",
+    "E9",
+    "C10",
+    "E10"
+  ],
+  "pickups": [
+    {
+      "at": "A7",
+      "kind": "treat"
+    },
+    {
+      "at": "A2",
+      "kind": "stick"
+    },
+    {
+      "at": "C8",
+      "kind": "stick"
+    },
+    {
+      "at": "E1",
+      "kind": "ball"
+    },
+    {
+      "at": "B4",
+      "kind": "ball"
+    },
+    {
+      "at": "D4",
+      "kind": "treat"
+    },
+    {
+      "at": "E8",
+      "kind": "vest"
+    },
+    {
+      "at": "F6",
+      "kind": "treat"
+    },
+    {
+      "at": "C1",
+      "kind": "stick"
+    },
+    {
+      "at": "A6",
+      "kind": "stick"
+    },
+    {
+      "at": "E3",
+      "kind": "ball"
+    }
+  ],
+  "expect": [
+    "A10",
+    "A9",
+    "A8",
+    "B8",
+    "C8",
+    "D8",
+    "E8",
+    "F8",
+    "F7",
+    "F6",
+    "E6",
+    "E5",
+    "D5",
+    "D4",
+    "D3",
+    "E3",
+    "E2",
+    "F2"
+  ],
+  "checks": {
+    "with_ball": -10
+  }
 }

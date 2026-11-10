@@ -158,7 +158,7 @@ def load_level(path: Path) -> Level:
         open_cells = set(cells("open"))
     water = set(cells("water"))
     caves = set(cells("caves"))
-    expect = [parse_cell(item, rows, cols) for item in data["expect"]]
+    expect = [parse_cell(item, rows, cols) for item in data.get("expect") or []]
     pickup_list = []
     for item in data.get("pickups", []):
         pickup_list.append((parse_cell(item["at"], rows, cols), item["kind"]))
@@ -244,9 +244,10 @@ def validate(level: Level) -> None:
             raise MapError(f"cliff {cell_name(a)}-{cell_name(b)} is not a side")
         if a in level.trees or b in level.trees:
             raise MapError(f"cliff {cell_name(a)}-{cell_name(b)} touches a tree")
-    if not level.expect or level.expect[0] != level.start or level.expect[-1] != level.flag:
-        raise MapError("expect must run from Abby to the flag")
-    simulate(level, level.expect)
+    if level.expect:
+        if level.expect[0] != level.start or level.expect[-1] != level.flag:
+            raise MapError("expect must run from Abby to the flag")
+        simulate(level, level.expect)
 
 
 def has_kind(level: Level, mask: int, kind: str) -> bool:
@@ -563,15 +564,23 @@ def best_route(level: Level) -> Route:
         raise MapError("no legal line reaches the flag")
     dijkstra_path, score, dist = found
     repeats = len(dijkstra_path) != len(set(dijkstra_path))
-    ties, examples, nodes = count_simple(level, score, dist)
-    if ties < 1:
-        raise MapError("the best score uses a line that reuses a dot")
+    target = score
+    while True:
+        ties, examples, nodes = count_simple(level, target, dist)
+        if ties >= 1:
+            break
+        # The cost search may revisit a dot. A printed line cannot.
+        if not repeats:
+            raise MapError("the best score uses a line that reuses a dot")
+        target -= 1
+        if score - target > 48:
+            raise MapError("no simple line reaches the flag")
     path = examples[0]
-    if not repeats and path != dijkstra_path and ties == 1:
+    if not repeats and path != dijkstra_path and ties == 1 and target == score:
         path = dijkstra_path
     if level.expect and path != level.expect:
         played = simulate(level, level.expect)
-        if played["score"] == score:
+        if played["score"] == target:
             path = level.expect
     return route_from(level, path, ties, nodes)
 

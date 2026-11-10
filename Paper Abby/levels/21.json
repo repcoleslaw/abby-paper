@@ -2,34 +2,38 @@
   "level": 21,
   "name": "The hedge",
   "blurb": "Two sticks on each road. The long road's second ball pays.",
-  "aside": "The long road keeps the treat at F2, the sticks at F4 and E5, and the balls at B4 and D4. It is 10 steps and scores \u22121. The short road keeps the treat at E1, the sticks at C1 and B2, and the ball at A3. It is 8 steps and scores \u22122. The second ball on the long road pays for the two steps.",
+  "aside": "The long road keeps the treat at F2, the sticks at F4 and E5, and the balls at B4 and D4. It is 10 steps and scores −1. The short road keeps the treat at E1, the sticks at C1 and B2, and the ball at A3. It is 8 steps and scores −2. The second ball on the long road pays for the two steps.",
   "start": "F1",
-  "flag": "A4",
+  "flag": "A10",
   "open": [
     "F1",
-    "E1",
-    "D1",
-    "C1",
-    "C2",
-    "B2",
     "A2",
-    "A3",
-    "A4",
+    "B2",
+    "C2",
+    "D2",
+    "E2",
     "F2",
-    "F3",
-    "F4",
-    "F5",
+    "B3",
+    "E3",
+    "B4",
+    "E4",
+    "B5",
     "E5",
-    "D5",
-    "D4",
-    "C4",
-    "B4"
+    "B6",
+    "E6",
+    "B7",
+    "E7",
+    "B8",
+    "E8",
+    "A9",
+    "B9",
+    "C9",
+    "D9",
+    "E9",
+    "F9",
+    "A10"
   ],
   "pickups": [
-    {
-      "at": "E1",
-      "kind": "treat"
-    },
     {
       "at": "F2",
       "kind": "treat"
@@ -39,41 +43,49 @@
       "kind": "stick"
     },
     {
-      "at": "C1",
-      "kind": "stick"
-    },
-    {
       "at": "E5",
       "kind": "stick"
-    },
-    {
-      "at": "F4",
-      "kind": "stick"
-    },
-    {
-      "at": "A3",
-      "kind": "ball"
     },
     {
       "at": "B4",
       "kind": "ball"
     },
     {
-      "at": "D4",
+      "at": "D9",
+      "kind": "treat"
+    },
+    {
+      "at": "B7",
       "kind": "ball"
+    },
+    {
+      "at": "E3",
+      "kind": "ball"
+    },
+    {
+      "at": "B3",
+      "kind": "stick"
+    },
+    {
+      "at": "E7",
+      "kind": "stick"
     }
   ],
   "expect": [
     "F1",
     "F2",
-    "F3",
-    "F4",
-    "F5",
-    "E5",
-    "D5",
-    "D4",
-    "C4",
+    "E2",
+    "D2",
+    "C2",
+    "B2",
+    "B3",
     "B4",
-    "A4"
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B9",
+    "A9",
+    "A10"
   ]
 }

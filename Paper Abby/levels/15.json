@@ -2,35 +2,77 @@
   "level": 15,
   "name": "The creek",
   "blurb": "Cross after the vest. The far pocket is worth the two steps.",
-  "aside": "The dry road keeps the treat at F9, the stick at E6, and the ball at D3. It never takes the vest. It is 10 steps and scores \u22125. The creek takes the vest at C9 and steps into the water at B9. That line is 12 steps, and the pocket past the water makes it score \u22122.",
+  "aside": "The dry road keeps the treat at F9, the stick at E6, and the ball at D3. It never takes the vest. It is 10 steps and scores −5. The creek takes the vest at C9 and steps into the water at B9. That line is 12 steps, and the pocket past the water makes it score −2.",
   "start": "F10",
   "flag": "C3",
   "open": [
-    "F10",
-    "E10",
-    "D10",
-    "D9",
-    "C9",
-    "B9",
-    "B8",
-    "B7",
-    "B6",
-    "B5",
+    "D1",
+    "E2",
+    "C3",
+    "D3",
+    "E3",
+    "F3",
     "B4",
     "C4",
-    "C3",
-    "F9",
-    "F8",
-    "E8",
-    "E7",
-    "E6",
-    "E5",
     "E4",
-    "E3",
-    "D3"
+    "F4",
+    "B5",
+    "E5",
+    "B6",
+    "D6",
+    "E6",
+    "B7",
+    "D7",
+    "E7",
+    "B8",
+    "C8",
+    "D8",
+    "E8",
+    "F8",
+    "A9",
+    "B9",
+    "C9",
+    "D9",
+    "E9",
+    "F9",
+    "D10",
+    "E10",
+    "F10"
   ],
   "water": [
+    "D1",
+    "E2",
+    "F3",
+    "F4",
+    "E5",
+    "D6",
+    "D7",
+    "C8",
+    "D8",
+    "A9",
     "B9"
+  ],
+  "cliffs": [
+    [
+      "D8",
+      "D9"
+    ],
+    [
+      "D8",
+      "E8"
+    ],
+    [
+      "D7",
+      "E7"
+    ],
+    [
+      "D6",
+      "E6"
+    ],
+    [
+      "C8",
+      "C9"
+    ]
   ],
   "pickups": [
     {
@@ -40,10 +82,6 @@
     {
       "at": "F9",
       "kind": "treat"
-    },
-    {
-      "at": "C9",
-      "kind": "vest"
     },
     {
       "at": "B4",
@@ -72,10 +110,30 @@
     {
       "at": "D3",
       "kind": "ball"
+    },
+    {
+      "at": "E9",
+      "kind": "vest"
+    },
+    {
+      "at": "E3",
+      "kind": "treat"
+    },
+    {
+      "at": "B8",
+      "kind": "stick"
+    },
+    {
+      "at": "F8",
+      "kind": "ball"
     }
   ],
   "expect": [
     "F10",
+    "F9",
+    "F8",
+    "E8",
+    "E9",
     "E10",
     "D10",
     "D9",

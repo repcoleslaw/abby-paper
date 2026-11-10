@@ -90,7 +90,7 @@
 <text class="quiet" x="80.50" y="136.13" font-size="2.4">One point when the line enters its dot.</text>
 <g transform="translate(11.75,142.48)"><g transform="scale(1.38)"><circle class="item" cx="0" cy="0" r="1.15"/><path class="item" d="M-0.75,-0.65 Q0.05,0.15 0.8,-0.6"/><path class="item" d="M-0.75,0.65 Q0.05,-0.15 0.8,0.6"/></g></g>
 <text class="ink" x="16.10" y="141.18" font-size="2.7" font-weight="700">Ball<tspan class="label" font-weight="400" font-size="2.4" dx="1.5">B</tspan></text>
-<text class="quiet" x="16.10" y="144.18" font-size="2.4">One point, counted the same way as a stick.</text>
+<text class="quiet" x="16.10" y="144.18" font-size="2.4">Three points when the line enters its dot.</text>
 <g transform="translate(76.15,142.48)"><g transform="scale(1.38)"><rect class="item-fill" x="-1.05" y="-0.36" width="2.1" height="0.72" rx="0.3"/><circle class="item-fill" cx="-1.15" cy="-0.42" r="0.4"/><circle class="item-fill" cx="-1.15" cy="0.42" r="0.4"/><circle class="item-fill" cx="1.15" cy="-0.42" r="0.4"/><circle class="item-fill" cx="1.15" cy="0.42" r="0.4"/></g></g>
 <text class="ink" x="80.50" y="141.18" font-size="2.7" font-weight="700">Treat<tspan class="label" font-weight="400" font-size="2.4" dx="1.5">T</tspan></text>
 <text class="quiet" x="80.50" y="144.18" font-size="2.4">One point, plus three circles inked back.</text>
@@ -99,14 +99,15 @@
 <text class="title" x="8.40" y="149.73" font-size="4.15" font-weight="700">How to Score</text>
 <line x1="8.40" y1="151.08" x2="131.30" y2="151.08" stroke="#e2d0a0" stroke-width="0.35"/>
 <rect class="formula" x="8.40" y="151.73" width="122.90" height="6.5"/>
-<text class="title" x="69.85" y="155.98" font-size="3.35" text-anchor="middle" font-weight="700">sticks + balls + treats − steps</text>
-<text class="ink" x="8.40" y="161.73" font-size="2.92">Steps are the filled circles, one for each new dot. A find is one</text>
-<text class="ink" x="8.40" y="165.21" font-size="2.92">point. A step is one point the other way. Two sticks, a ball, and a</text>
-<text class="ink" x="8.40" y="168.69" font-size="2.92">treat, in fourteen steps: 2 + 1 + 1 − 14 = −10.</text>
-<text class="ink" x="8.40" y="172.17" font-size="2.92">The vest and the lamp are not in that sum. A one-step detour for a</text>
-<text class="ink" x="8.40" y="175.65" font-size="2.92">find ties the line you already had. A two-step detour loses. The ball</text>
-<text class="ink" x="8.40" y="179.13" font-size="2.92">is allowed to be a bad idea. Higher is better, even below zero.</text>
-<text class="ink" x="8.40" y="182.61" font-size="2.92">Minus seven beats minus twelve. You win by touching the flag.</text>
-<text class="ink" x="8.40" y="186.09" font-size="2.92">The score is how two lines compare, if you want to compare them.</text>
+<text class="title" x="69.85" y="155.98" font-size="3.35" text-anchor="middle" font-weight="700">sticks + 3×balls + treats − steps</text>
+<text class="ink" x="8.40" y="161.73" font-size="2.92">Steps are the filled circles, one for each new dot. A stick is one</text>
+<text class="ink" x="8.40" y="165.21" font-size="2.92">point. A tennis ball is three. A treat is one. A step is one point</text>
+<text class="ink" x="8.40" y="168.69" font-size="2.92">the other way. Two sticks, a ball, and a treat, in fourteen steps:</text>
+<text class="ink" x="8.40" y="172.17" font-size="2.92">2 + 3 + 1 − 14 = −8.</text>
+<text class="ink" x="8.40" y="175.65" font-size="2.92">The vest and the lamp are not in that sum. A one-step detour for a</text>
+<text class="ink" x="8.40" y="179.13" font-size="2.92">stick ties the line you already had. A two-step detour for a stick</text>
+<text class="ink" x="8.40" y="182.61" font-size="2.92">loses. A ball pays for two extra steps. Higher is better, even below zero.</text>
+<text class="ink" x="8.40" y="186.09" font-size="2.92">Minus seven beats minus twelve. You win by touching the flag.</text>
+<text class="ink" x="8.40" y="189.57" font-size="2.92">The score is how two lines compare, if you want to compare them.</text>
 </g>
 </svg>

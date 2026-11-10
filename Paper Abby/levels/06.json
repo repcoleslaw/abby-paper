@@ -5,20 +5,83 @@
   "aside": "She finishes with 2 energy. The ball is the bulge through B10 and B9. That line is two steps longer, keeps both treats and the stick at C3, and scores −10. That is the best line. The line that skips the ball scores −11.",
   "start": "A10",
   "flag": "F5",
-  "open": ["A10", "A9", "A8", "B8", "B7", "C7", "C6", "C5", "C4", "C3", "D3", "D4", "E4", "F4", "F5", "B10", "B9", "D7", "D6"],
-  "water": ["B7"],
-  "caves": ["C5"],
-  "cliffs": [["C4", "D4"]],
-  "pickups": [
-    {"at": "A9", "kind": "treat"},
-    {"at": "A8", "kind": "vest"},
-    {"at": "C6", "kind": "lamp"},
-    {"at": "C3", "kind": "stick"},
-    {"at": "D7", "kind": "stick"},
-    {"at": "B10", "kind": "ball"},
-    {"at": "F4", "kind": "treat"}
+  "open": [
+    "B1",
+    "A2",
+    "C3",
+    "D3",
+    "C4",
+    "D4",
+    "E4",
+    "F4",
+    "C5",
+    "F5",
+    "C6",
+    "D6",
+    "B7",
+    "C7",
+    "D7",
+    "A8",
+    "B8",
+    "A9",
+    "B9",
+    "E9",
+    "F9",
+    "A10",
+    "B10",
+    "D10",
+    "E10",
+    "F10"
   ],
-  "expect": ["A10", "B10", "B9", "A9", "A8", "B8", "B7", "C7", "C6", "C5", "C4", "C3", "D3", "D4", "E4", "F4", "F5"],
+  "water": [
+    "B1",
+    "A2",
+    "B7",
+    "E9",
+    "F9",
+    "D10",
+    "E10",
+    "F10"
+  ],
+  "caves": [
+    "C5"
+  ],
+  "cliffs": [
+    [
+      "C4",
+      "D4"
+    ]
+  ],
+  "pickups": [
+    {
+      "at": "A9",
+      "kind": "treat"
+    },
+    {
+      "at": "A8",
+      "kind": "vest"
+    },
+    {
+      "at": "C6",
+      "kind": "lamp"
+    },
+    {
+      "at": "C3",
+      "kind": "stick"
+    },
+    {
+      "at": "D7",
+      "kind": "stick"
+    },
+    {
+      "at": "B10",
+      "kind": "ball"
+    },
+    {
+      "at": "F4",
+      "kind": "treat"
+    }
+  ],
   "checks": {
     "without_cliffs": -9,
     "with_ball": -10,

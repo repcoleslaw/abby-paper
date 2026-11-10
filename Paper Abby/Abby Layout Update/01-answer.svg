@@ -443,7 +443,7 @@
 <g id="cliff-D7-D8"><line class="cliff" x1="58.56" y1="118.96" x2="69.24" y2="118.96" stroke-width="0.95"/><line class="cliff" x1="60.69" y1="117.81" x2="60.69" y2="120.11" stroke-width="0.32"/><line class="cliff" x1="62.83" y1="117.81" x2="62.83" y2="120.11" stroke-width="0.32"/><line class="cliff" x1="64.97" y1="117.81" x2="64.97" y2="120.11" stroke-width="0.32"/><line class="cliff" x1="67.11" y1="117.81" x2="67.11" y2="120.11" stroke-width="0.32"/></g>
 </g>
 <g id="answer">
-<polyline class="answer-line" points="27.63,149.18 39.72,149.18 51.81,149.18 51.81,137.09 51.81,125.00 63.90,125.00 75.99,125.00 75.99,112.91 63.90,112.91 63.90,100.82 63.90,88.74 63.90,76.65 63.90,64.56 75.99,64.56 88.08,64.56 88.08,52.47"/>
+<polyline class="answer-line" points="27.63,149.18 39.72,149.18 51.81,149.18 63.90,149.18 63.90,137.09 51.81,137.09 51.81,125.00 63.90,125.00 75.99,125.00 75.99,112.91 63.90,112.91 63.90,100.82 63.90,88.74 63.90,76.65 63.90,64.56 75.99,64.56 88.08,64.56 88.08,52.47"/>
 </g>
 <g id="dots">
 <circle class="dot" cx="88.08" cy="52.47" r="0.72"/>
@@ -511,9 +511,9 @@
 <circle fill="#1c1915" cx="116.65" cy="52.68" r="2.54"/>
 <circle fill="#1c1915" cx="127.47" cy="52.68" r="2.54"/>
 <circle fill="#1c1915" cx="116.65" cy="60.68" r="2.54"/>
-<circle class="circle-dash" cx="127.47" cy="60.68" r="2.54"/>
+<circle fill="#1c1915" cx="127.47" cy="60.68" r="2.54"/>
 <circle fill="#1c1915" cx="116.65" cy="68.67" r="2.54"/>
-<circle class="circle-dash" cx="127.47" cy="68.67" r="2.54"/>
+<circle fill="#1c1915" cx="127.47" cy="68.67" r="2.54"/>
 <circle fill="#1c1915" cx="116.65" cy="76.67" r="2.54"/>
 <circle class="circle-dash" cx="127.47" cy="76.67" r="2.54"/>
 <circle fill="#1c1915" cx="116.65" cy="84.67" r="2.54"/>
@@ -530,7 +530,7 @@
 <circle class="circle-dash" cx="127.47" cy="124.65" r="2.54"/>
 <rect class="box" x="111.48" y="136.41" width="22.11" height="18.81"/>
 <text class="label" x="112.98" y="140.01" font-size="2.5">steps</text>
-<text class="answer-ink" x="122.53" y="148.91" font-size="7" text-anchor="middle" font-weight="700">15</text>
+<text class="answer-ink" x="122.53" y="148.91" font-size="7" text-anchor="middle" font-weight="700">17</text>
 </g>
 <g id="tally">
 <rect class="box" x="7.53" y="162.75" width="12.23" height="11.76"/>
@@ -547,6 +547,6 @@
 <g class="tally-tool" transform="translate(42.15,183.68) scale(3.123)"><circle class="item" cx="0" cy="0" r="1.15"/><path class="item" d="M-0.75,-0.65 Q0.05,0.15 0.8,-0.6"/><path class="item" d="M-0.75,0.65 Q0.05,-0.15 0.8,0.6"/></g>
 <rect class="box" x="111.48" y="162.75" width="22.11" height="26.81"/>
 <text class="label" x="112.98" y="166.35" font-size="2.5">score</text>
-<text class="answer-ink" x="122.53" y="178.75" font-size="6.4" text-anchor="middle" font-weight="700">−12</text>
+<text class="answer-ink" x="122.53" y="178.75" font-size="6.4" text-anchor="middle" font-weight="700">−11</text>
 </g>
 </svg>

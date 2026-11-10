@@ -531,6 +531,6 @@
 <g class="tally-tool" transform="translate(42.15,183.68) scale(3.123)"><circle class="item" cx="0" cy="0" r="1.15"/><path class="item" d="M-0.75,-0.65 Q0.05,0.15 0.8,-0.6"/><path class="item" d="M-0.75,0.65 Q0.05,-0.15 0.8,0.6"/></g>
 <rect class="box" x="111.48" y="162.75" width="22.11" height="26.81"/>
 <text class="label" x="112.98" y="166.35" font-size="2.5">score</text>
-<text class="answer-ink" x="122.53" y="178.75" font-size="6.4" text-anchor="middle" font-weight="700">−6</text>
+<text class="answer-ink" x="122.53" y="178.75" font-size="6.4" text-anchor="middle" font-weight="700">−2</text>
 </g>
 </svg>

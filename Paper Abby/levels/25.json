@@ -1,76 +1,97 @@
 {
   "level": 25,
-  "name": "The last pocket",
+  "name": "The babypoint loop",
   "blurb": "Both gates, and a short road that finishes three points worse.",
-  "aside": "The right-hand column keeps the treat at F2, the stick at F6, and the ball at E9. It skips both gates. It is 10 steps and scores \u22125. The other road takes the vest at D1 before the water, and the lamp at C3 before the arch. It is 12 steps and scores \u22122.",
-  "start": "F1",
-  "flag": "D9",
+  "aside": "The right-hand column keeps the treat at F2, the stick at F6, and the ball at E9. It skips both gates. It is 10 steps and scores −5. The other road takes the vest at D1 before the water, and the lamp at C3 before the arch. It is 12 steps and scores −2.",
+  "start": "C10",
+  "flag": "E10",
   "open": [
-    "F1",
-    "E1",
-    "D1",
+    "A1",
+    "B1",
     "C1",
+    "D1",
+    "E1",
+    "A2",
+    "B2",
     "C2",
-    "C3",
+    "D2",
+    "E2",
+    "F2",
+    "A3",
+    "D3",
+    "F3",
+    "A4",
     "C4",
+    "D4",
+    "F4",
+    "A5",
+    "B5",
     "C5",
     "D5",
-    "D6",
-    "D7",
-    "D8",
-    "D9",
-    "F2",
-    "F3",
-    "F4",
+    "E5",
     "F5",
+    "A6",
+    "B6",
+    "E6",
     "F6",
-    "F7",
-    "F8",
-    "F9",
-    "E9"
+    "B7",
+    "E7",
+    "B8",
+    "C8",
+    "D8",
+    "E8",
+    "C9",
+    "D9",
+    "E9",
+    "C10",
+    "E10"
   ],
   "water": [
-    "C1"
+    "A1",
+    "B1",
+    "C1",
+    "D1",
+    "E1"
   ],
   "caves": [
-    "C5"
+    "D3",
+    "B5",
+    "E5"
+  ],
+  "cliffs": [
+    [
+      "A1",
+      "A2"
+    ],
+    [
+      "B1",
+      "B2"
+    ],
+    [
+      "C1",
+      "C2"
+    ],
+    [
+      "D1",
+      "D2"
+    ],
+    [
+      "E1",
+      "E2"
+    ],
+    [
+      "C9",
+      "D9"
+    ],
+    [
+      "C8",
+      "D8"
+    ]
   ],
   "pickups": [
     {
-      "at": "E1",
-      "kind": "treat"
-    },
-    {
-      "at": "F2",
-      "kind": "treat"
-    },
-    {
-      "at": "D1",
-      "kind": "vest"
-    },
-    {
-      "at": "C3",
-      "kind": "lamp"
-    },
-    {
       "at": "C2",
       "kind": "stick"
-    },
-    {
-      "at": "D5",
-      "kind": "stick"
-    },
-    {
-      "at": "D7",
-      "kind": "stick"
-    },
-    {
-      "at": "F6",
-      "kind": "stick"
-    },
-    {
-      "at": "D6",
-      "kind": "ball"
     },
     {
       "at": "D8",
@@ -79,22 +100,78 @@
     {
       "at": "E9",
       "kind": "ball"
+    },
+    {
+      "at": "C4",
+      "kind": "ball"
+    },
+    {
+      "at": "C5",
+      "kind": "ball"
+    },
+    {
+      "at": "D4",
+      "kind": "ball"
+    },
+    {
+      "at": "D5",
+      "kind": "ball"
+    },
+    {
+      "at": "A2",
+      "kind": "lamp"
+    },
+    {
+      "at": "E2",
+      "kind": "stick"
+    },
+    {
+      "at": "F3",
+      "kind": "stick"
+    },
+    {
+      "at": "F4",
+      "kind": "treat"
+    },
+    {
+      "at": "A4",
+      "kind": "treat"
+    },
+    {
+      "at": "B6",
+      "kind": "treat"
+    },
+    {
+      "at": "D2",
+      "kind": "treat"
     }
   ],
   "expect": [
-    "F1",
-    "E1",
-    "D1",
-    "C1",
+    "C10",
+    "C9",
+    "C8",
+    "B8",
+    "B7",
+    "B6",
+    "A6",
+    "A5",
+    "A4",
+    "A3",
+    "A2",
+    "B2",
     "C2",
-    "C3",
-    "C4",
-    "C5",
-    "D5",
-    "D6",
-    "D7",
-    "D8",
-    "D9"
+    "D2",
+    "E2",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10"
   ],
   "checks": {
     "avoiding_water": -5,

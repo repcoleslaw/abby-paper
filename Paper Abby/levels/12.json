@@ -1,22 +1,131 @@
 {
   "level": 12,
-  "name": "The wide park",
+  "name": "The Waterfall",
   "blurb": "Almost every dot is free. One line is still best.",
   "aside": "Two treats and the stick at A2 are on one line: up column A, then across row 2, through the water and the cave. She finishes with 5 energy. That line scores −10. The right-hand walk takes the first treat and the ball at F7, misses both sticks, and scores −11. The stick at C1 is the walk over the top. It keeps the treats and the stick at A2, and it scores −11.",
   "start": "A10",
   "flag": "F2",
-  "trees": ["C8", "C9", "D8", "D9"],
-  "water": ["C2", "C3", "D3"],
-  "caves": ["E2", "E3"],
-  "pickups": [
-    {"at": "A8", "kind": "treat"},
-    {"at": "A6", "kind": "treat"},
-    {"at": "A4", "kind": "vest"},
-    {"at": "A2", "kind": "stick"},
-    {"at": "C1", "kind": "stick"},
-    {"at": "D2", "kind": "lamp"},
-    {"at": "F7", "kind": "ball"}
+  "trees": [
+    "A1",
+    "B1",
+    "E1",
+    "F1",
+    "C8",
+    "C9"
   ],
-  "expect": ["A10", "A9", "A8", "A7", "A6", "A5", "A4", "A3", "A2", "B2", "C2", "D2", "E2", "F2"],
-  "checks": {"with_ball": -9, "avoiding_water": -9, "avoiding_cave": -9}
+  "water": [
+    "C1",
+    "D1",
+    "C2",
+    "D2",
+    "C3",
+    "D3",
+    "C4",
+    "D4",
+    "C5",
+    "D5",
+    "C6",
+    "D6",
+    "C7",
+    "D7",
+    "D8",
+    "E8",
+    "D9",
+    "E9",
+    "D10",
+    "E10"
+  ],
+  "caves": [
+    "E2",
+    "E3",
+    "B4",
+    "B5",
+    "F5",
+    "F6"
+  ],
+  "cliffs": [
+    [
+      "A4",
+      "A5"
+    ],
+    [
+      "C4",
+      "C5"
+    ],
+    [
+      "D4",
+      "D5"
+    ],
+    [
+      "D5",
+      "E5"
+    ],
+    [
+      "E5",
+      "E6"
+    ],
+    [
+      "A7",
+      "A8"
+    ],
+    [
+      "F8",
+      "F9"
+    ],
+    [
+      "E8",
+      "E9"
+    ]
+  ],
+  "pickups": [
+    {
+      "at": "A8",
+      "kind": "treat"
+    },
+    {
+      "at": "A6",
+      "kind": "treat"
+    },
+    {
+      "at": "A2",
+      "kind": "stick"
+    },
+    {
+      "at": "F7",
+      "kind": "ball"
+    },
+    {
+      "at": "A7",
+      "kind": "vest"
+    },
+    {
+      "at": "B7",
+      "kind": "lamp"
+    }
+  ],
+  "expect": [
+    "A10",
+    "A9",
+    "A8",
+    "B8",
+    "B7",
+    "A7",
+    "A6",
+    "B6",
+    "C6",
+    "C7",
+    "D7",
+    "E7",
+    "F7",
+    "F6",
+    "F5",
+    "F4",
+    "F3",
+    "F2"
+  ],
+  "checks": {
+    "with_ball": -9,
+    "avoiding_water": -9,
+    "avoiding_cave": -9
+  }
 }

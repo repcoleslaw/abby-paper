@@ -31,6 +31,7 @@
   const levelInput = document.querySelector("#level-num");
   const nameInput = document.querySelector("#level-name");
   const blurbInput = document.querySelector("#level-blurb");
+  const asideInput = document.querySelector("#level-aside");
   const testButton = document.querySelector("#test");
   const fileInput = document.querySelector("#import-file");
   const answerEmpty = document.querySelector("#answer-empty");
@@ -87,6 +88,10 @@
     if (doc.energyCap == null) doc.energyCap = 24;
     if (!doc.start) doc.start = "A10";
     if (!doc.flag) doc.flag = "F6";
+    if (typeof doc.aside !== "string") doc.aside = doc.aside == null ? "" : String(doc.aside);
+    if (!doc.checks || typeof doc.checks !== "object" || Array.isArray(doc.checks)) doc.checks = {};
+    if (!Array.isArray(doc.expect) || doc.expect.length === 0) doc.expect = null;
+    if (doc.shape !== "trees") doc.shape = "open";
     return doc;
   }
 
@@ -370,18 +375,28 @@
     }
   }
 
+  function fitNotes() {
+    asideInput.style.height = "auto";
+    const border = asideInput.offsetHeight - asideInput.clientHeight;
+    asideInput.style.height = asideInput.scrollHeight + border + "px";
+  }
+
   function showLevel() {
     const doc = current();
     levelInput.value = doc.level;
     nameInput.value = doc.name || "";
     blurbInput.value = doc.blurb || "";
+    asideInput.value = doc.aside || "";
+    fitNotes();
     renderLibrary();
     renderBoard();
     renderAnswer();
   }
 
   function commitMap() {
-    current().answer = null;
+    const doc = current();
+    doc.answer = null;
+    doc.expect = null;
     saveLibrary();
     renderBoard();
     renderAnswer();
@@ -542,6 +557,12 @@
     saveLibrary();
   });
 
+  asideInput.addEventListener("input", () => {
+    current().aside = asideInput.value;
+    saveLibrary();
+    fitNotes();
+  });
+
   document.querySelector("#new").addEventListener("click", () => {
     const doc = blankLevel();
     library.levels.push(doc);
@@ -564,6 +585,75 @@
   });
 
   document.querySelector("#import").addEventListener("click", () => fileInput.click());
+
+  async function fetchLevelFiles() {
+    const docs = [];
+    let misses = 0;
+    const folderError = "Could not read the levels folder. Start the server from the Paper Abby folder.";
+    for (let n = 1; misses < 2 && n <= 200; n += 1) {
+      const name = fileNameFor(n);
+      let response;
+      try {
+        response = await fetch("../levels/" + name, { cache: "no-store" });
+      } catch (err) {
+        if (docs.length === 0) throw new Error(folderError);
+        throw err;
+      }
+      if (!response.ok) {
+        misses += 1;
+        if (n === 1) throw new Error(folderError);
+        continue;
+      }
+      misses = 0;
+      let data;
+      try {
+        data = JSON.parse(await response.text());
+      } catch (err) {
+        throw new Error(name + " is not a level.");
+      }
+      let doc;
+      try {
+        doc = normalizeDoc(abbyDocFromPaper(data));
+      } catch (err) {
+        throw new Error(name + ": " + (err.message || "That file is not a level."));
+      }
+      doc.id = crypto.randomUUID();
+      doc.answer = null;
+      docs.push(doc);
+    }
+    if (docs.length === 0) throw new Error(folderError);
+    return docs;
+  }
+
+  function mergeLoaded(docs) {
+    const incoming = new Map();
+    for (const doc of docs) incoming.set(Number(doc.level), doc);
+    const clashes = library.levels.filter((level) => incoming.has(Number(level.level)));
+    if (clashes.length > 0) {
+      const noun = clashes.length === 1 ? "level" : "levels";
+      if (!confirm("Replace " + clashes.length + " open " + noun + " with the files in levels/?")) return;
+    }
+    const activeNumber = Number(current().level);
+    const kept = library.levels.filter((level) => !incoming.has(Number(level.level)));
+    library.levels = docs.concat(kept).sort((a, b) => Number(a.level) - Number(b.level));
+    const still = library.levels.find((level) => Number(level.level) === activeNumber);
+    library.activeId = (still || library.levels[0]).id;
+    saveLibrary();
+    showLevel();
+    setStatus("Loaded " + docs.length + " levels.");
+  }
+
+  document.querySelector("#load").addEventListener("click", async () => {
+    const button = document.querySelector("#load");
+    button.disabled = true;
+    try {
+      mergeLoaded(await fetchLevelFiles());
+    } catch (err) {
+      setStatus(err.message || "Could not read the levels folder. Start the server from the Paper Abby folder.");
+    } finally {
+      button.disabled = false;
+    }
+  });
 
   fileInput.addEventListener("change", async () => {
     const file = fileInput.files && fileInput.files[0];
@@ -712,6 +802,9 @@
           result = { ok: false, message: err.message || "The search failed." };
         }
         doc.answer = result;
+        if (result.ok && Array.isArray(result.path) && result.path.length) {
+          doc.expect = result.path.slice();
+        }
         saveLibrary();
         renderBoard();
         renderAnswer();

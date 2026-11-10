@@ -17,6 +17,7 @@
         <button type="button" id="new">New</button>
         <button type="button" id="import">Import</button>
         <input id="import-file" type="file" accept="application/json,.json" hidden>
+        <button type="button" id="load">Load levels</button>
         <button type="button" id="save">Save to folder</button>
         <button type="button" id="download">Download</button>
         <button type="button" id="test" class="primary">Test</button>
@@ -28,6 +29,7 @@
       <label>Name <input id="level-name" type="text" maxlength="80"></label>
       <label class="grow">Blurb <input id="level-blurb" type="text" maxlength="240"></label>
     </div>
+    <label class="notes">Notes <textarea id="level-aside" rows="3" maxlength="2000"></textarea></label>
     <p id="status" class="status" role="status"></p>
 
     <div class="workspace">

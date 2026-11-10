@@ -711,7 +711,7 @@ def write_all() -> list[tuple[pa.Level, pa.Route]]:
     solved = []
     for path in pa.level_paths():
         level = pa.load_level(path)
-        route = pa.route_from(level, level.expect, 1, 0)
+        route = pa.best_route(level)
         solved.append((level, route))
     write_sheets(solved)
     write_instructions()
@@ -728,7 +728,7 @@ def main(argv: list[str]) -> None:
         return
     if len(argv) > 1:
         level = pa.load_level(Path(argv[1]))
-        route = pa.route_from(level, level.expect, 1, 0)
+        route = pa.best_route(level)
         write_sheets([(level, route)])
         print(f"Wrote level {level.level} to {OUT.name}.")
         return

@@ -2,7 +2,7 @@
   "level": 23,
   "name": "The high water",
   "blurb": "The water is the long way. The sticks wait on the far side of it.",
-  "aside": "The dry column keeps the treat at A2, the stick at A6, and the ball at B8. It never takes the vest. It is 9 steps and scores \u22124. The long road takes the vest at D2 before the water at D3, and it scores \u22121.",
+  "aside": "The dry column keeps the treat at A2, the stick at A6, and the ball at B8. It never takes the vest. It is 9 steps and scores −4. The long road takes the vest at D2 before the water at D3, and it scores −1.",
   "start": "A1",
   "flag": "C8",
   "open": [
@@ -10,25 +10,71 @@
     "B1",
     "C1",
     "D1",
-    "D2",
-    "D3",
-    "D4",
-    "D5",
-    "C5",
-    "C6",
-    "C7",
-    "C8",
     "A2",
+    "D2",
     "A3",
+    "C3",
+    "D3",
+    "E3",
+    "F3",
     "A4",
+    "B4",
+    "C4",
+    "D4",
+    "E4",
+    "F4",
     "A5",
+    "B5",
+    "C5",
+    "D5",
+    "E5",
+    "F5",
     "A6",
+    "B6",
+    "C6",
+    "E6",
+    "F6",
     "A7",
+    "B7",
+    "C7",
+    "D7",
+    "E7",
     "A8",
-    "B8"
+    "B8",
+    "C8",
+    "F8",
+    "E9",
+    "F9",
+    "A10",
+    "B10",
+    "C10",
+    "D10",
+    "E10"
   ],
   "water": [
-    "D3"
+    "C3",
+    "D3",
+    "E3",
+    "F3",
+    "C4",
+    "D4",
+    "E4",
+    "F4",
+    "A6",
+    "B6",
+    "C6",
+    "A7",
+    "B7",
+    "C7",
+    "D7",
+    "F8",
+    "E9",
+    "F9",
+    "A10",
+    "B10",
+    "C10",
+    "D10",
+    "E10"
   ],
   "pickups": [
     {
@@ -36,27 +82,11 @@
       "kind": "treat"
     },
     {
-      "at": "B1",
-      "kind": "treat"
-    },
-    {
       "at": "D2",
       "kind": "vest"
     },
     {
-      "at": "A6",
-      "kind": "stick"
-    },
-    {
       "at": "C1",
-      "kind": "stick"
-    },
-    {
-      "at": "C6",
-      "kind": "stick"
-    },
-    {
-      "at": "D4",
       "kind": "stick"
     },
     {
@@ -64,12 +94,28 @@
       "kind": "ball"
     },
     {
-      "at": "C7",
+      "at": "D5",
       "kind": "ball"
     },
     {
-      "at": "D5",
-      "kind": "ball"
+      "at": "E5",
+      "kind": "treat"
+    },
+    {
+      "at": "E7",
+      "kind": "stick"
+    },
+    {
+      "at": "F6",
+      "kind": "stick"
+    },
+    {
+      "at": "A4",
+      "kind": "stick"
+    },
+    {
+      "at": "B5",
+      "kind": "stick"
     }
   ],
   "expect": [
@@ -81,9 +127,13 @@
     "D3",
     "D4",
     "D5",
-    "C5",
-    "C6",
+    "E5",
+    "E6",
+    "E7",
+    "D7",
     "C7",
+    "B7",
+    "B8",
     "C8"
   ],
   "checks": {

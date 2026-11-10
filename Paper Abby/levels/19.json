@@ -2,55 +2,68 @@
   "level": 19,
   "name": "The long crossing",
   "blurb": "Vest, then lamp. Both gates sit on the heavier road.",
-  "aside": "The road down the right edge keeps the treat at F9, the stick at F5, and the ball at C4. It crosses neither gate. It is 10 steps and scores \u22125. The long road takes the vest at D10 before the water, and the lamp at C8 before the arch. It is 12 steps and scores \u22122.",
+  "aside": "The road down the right edge keeps the treat at F9, the stick at F5, and the ball at C4. It crosses neither gate. It is 10 steps and scores −5. The long road takes the vest at D10 before the water, and the lamp at C8 before the arch. It is 12 steps and scores −2.",
   "start": "F10",
-  "flag": "B4",
+  "flag": "B3",
   "open": [
-    "F10",
-    "E10",
-    "D10",
-    "C10",
-    "C9",
+    "B2",
+    "C2",
+    "D2",
+    "E2",
+    "B3",
+    "C3",
+    "D3",
+    "E3",
+    "B4",
+    "C4",
+    "D4",
+    "E4",
+    "B5",
+    "E5",
+    "F5",
+    "B6",
+    "C6",
+    "D6",
+    "E6",
+    "F6",
+    "B7",
+    "D7",
+    "B8",
     "C8",
     "D8",
-    "D7",
-    "D6",
-    "C6",
-    "B6",
-    "B5",
-    "B4",
-    "F9",
+    "E8",
     "F8",
-    "F7",
-    "F6",
-    "F5",
-    "E5",
-    "E4",
-    "D4",
-    "C4"
+    "C9",
+    "F9",
+    "C10",
+    "D10",
+    "E10",
+    "F10"
   ],
   "water": [
-    "C10"
+    "D7"
   ],
   "caves": [
-    "D7"
+    "B7"
+  ],
+  "cliffs": [
+    [
+      "B3",
+      "B4"
+    ],
+    [
+      "C3",
+      "C4"
+    ],
+    [
+      "E3",
+      "E4"
+    ]
   ],
   "pickups": [
     {
       "at": "E10",
       "kind": "treat"
-    },
-    {
-      "at": "F9",
-      "kind": "treat"
-    },
-    {
-      "at": "D10",
-      "kind": "vest"
-    },
-    {
-      "at": "C8",
-      "kind": "lamp"
     },
     {
       "at": "B6",
@@ -77,7 +90,27 @@
       "kind": "ball"
     },
     {
-      "at": "C6",
+      "at": "D2",
+      "kind": "ball"
+    },
+    {
+      "at": "E3",
+      "kind": "stick"
+    },
+    {
+      "at": "E2",
+      "kind": "stick"
+    },
+    {
+      "at": "B8",
+      "kind": "lamp"
+    },
+    {
+      "at": "D8",
+      "kind": "vest"
+    },
+    {
+      "at": "E5",
       "kind": "ball"
     }
   ],
@@ -88,13 +121,16 @@
     "C10",
     "C9",
     "C8",
-    "D8",
-    "D7",
-    "D6",
-    "C6",
+    "B8",
+    "B7",
     "B6",
     "B5",
-    "B4"
+    "B4",
+    "C4",
+    "D4",
+    "D3",
+    "C3",
+    "B3"
   ],
   "checks": {
     "avoiding_water": -5,

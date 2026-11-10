@@ -1,19 +1,92 @@
 {
   "level": 9,
-  "name": "The pond",
+  "name": "The Pond",
   "blurb": "Walk around the pond, or cross after the vest.",
   "aside": "The stick at A4 is the corner, so only one shortest walk picks it up, and that walk crosses the pond after the vest. It scores −9. The way around the water climbs to row 3, takes the ball, and scores −10. The stick at B10 is a walk up the middle that never crosses the pond. It reaches the flag and scores −10.",
   "start": "A10",
   "flag": "F4",
-  "trees": ["E8", "E9", "F8", "F9"],
-  "water": ["B5", "C4", "C5", "D5"],
-  "pickups": [
-    {"at": "A8", "kind": "treat"},
-    {"at": "A6", "kind": "vest"},
-    {"at": "A4", "kind": "stick"},
-    {"at": "B10", "kind": "stick"},
-    {"at": "C3", "kind": "ball"}
+  "trees": [
+    "A1",
+    "B1",
+    "A2",
+    "E5",
+    "E8",
+    "F8",
+    "E9",
+    "F9"
   ],
-  "expect": ["A10", "A9", "A8", "A7", "A6", "A5", "A4", "B4", "C4", "D4", "E4", "F4"],
-  "checks": {"with_ball": -8, "avoiding_water": -8}
+  "water": [
+    "D3",
+    "C4",
+    "D4",
+    "E4",
+    "B5",
+    "C5",
+    "D5",
+    "C6",
+    "D6",
+    "B7",
+    "C7",
+    "D7",
+    "E7",
+    "B8",
+    "C8",
+    "D8",
+    "C9",
+    "D9"
+  ],
+  "pickups": [
+    {
+      "at": "A8",
+      "kind": "treat"
+    },
+    {
+      "at": "A6",
+      "kind": "vest"
+    },
+    {
+      "at": "A4",
+      "kind": "stick"
+    },
+    {
+      "at": "B10",
+      "kind": "stick"
+    },
+    {
+      "at": "C3",
+      "kind": "ball"
+    },
+    {
+      "at": "E6",
+      "kind": "ball"
+    },
+    {
+      "at": "E3",
+      "kind": "stick"
+    },
+    {
+      "at": "C2",
+      "kind": "stick"
+    }
+  ],
+  "expect": [
+    "A10",
+    "A9",
+    "A8",
+    "A7",
+    "A6",
+    "A5",
+    "A4",
+    "A3",
+    "B3",
+    "C3",
+    "D3",
+    "E3",
+    "E4",
+    "F4"
+  ],
+  "checks": {
+    "with_ball": -8,
+    "avoiding_water": -8
+  }
 }

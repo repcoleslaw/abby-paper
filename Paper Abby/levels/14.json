@@ -1,31 +1,72 @@
 {
   "level": 14,
-  "name": "The low road",
+  "name": "The A Piece of Candy",
   "blurb": "One more ball, two more steps. The long road is the better score.",
-  "aside": "The road up column A keeps the treat at A9, the sticks at A7 and A5, and the balls at C4 and D5. It is 11 steps and scores \u22122. The low road stays on the bottom and climbs to the flag. It keeps the treat at B10, the sticks at C9 and D7, and the ball at E6, in 9 steps, and scores \u22123.",
-  "start": "A10",
-  "flag": "E5",
+  "aside": "The road up column A keeps the treat at A9, the sticks at A7 and A5, and the balls at C4 and D5. It is 11 steps and scores −2. The low road stays on the bottom and climbs to the flag. It keeps the treat at B10, the sticks at C9 and D7, and the ball at E6, in 9 steps, and scores −3.",
+  "start": "C10",
+  "flag": "E2",
   "open": [
-    "A10",
-    "B10",
-    "C10",
-    "C9",
-    "D9",
-    "D8",
-    "D7",
-    "E7",
-    "E6",
-    "E5",
-    "A9",
-    "A8",
-    "A7",
-    "A6",
-    "A5",
+    "B1",
+    "A2",
+    "B2",
+    "C2",
+    "D2",
+    "E2",
+    "C3",
+    "E3",
     "A4",
     "B4",
     "C4",
+    "E4",
+    "A5",
     "C5",
-    "D5"
+    "D5",
+    "E5",
+    "A6",
+    "B6",
+    "E6",
+    "A7",
+    "B7",
+    "C7",
+    "D7",
+    "E7",
+    "F7",
+    "A8",
+    "C8",
+    "D8",
+    "F8",
+    "A9",
+    "C9",
+    "D9",
+    "E9",
+    "F9",
+    "A10",
+    "B10",
+    "C10",
+    "E10",
+    "F10"
+  ],
+  "water": [
+    "B1",
+    "A2",
+    "B2",
+    "C7",
+    "C8",
+    "E10",
+    "F10"
+  ],
+  "caves": [
+    "E3"
+  ],
+  "cliffs": [
+    [
+      "A6",
+      "A7"
+    ],
+    [
+      "B7",
+      "C7"
+    ]
   ],
   "pickups": [
     {
@@ -63,20 +104,47 @@
     {
       "at": "E6",
       "kind": "ball"
+    },
+    {
+      "at": "F8",
+      "kind": "lamp"
+    },
+    {
+      "at": "D8",
+      "kind": "ball"
+    },
+    {
+      "at": "B6",
+      "kind": "ball"
+    },
+    {
+      "at": "E7",
+      "kind": "treat"
+    },
+    {
+      "at": "B4",
+      "kind": "treat"
+    },
+    {
+      "at": "C3",
+      "kind": "treat"
     }
   ],
   "expect": [
-    "A10",
-    "A9",
-    "A8",
-    "A7",
-    "A6",
-    "A5",
-    "A4",
-    "B4",
-    "C4",
-    "C5",
+    "C10",
+    "C9",
+    "D9",
+    "D8",
+    "D7",
+    "E7",
+    "E6",
+    "E5",
     "D5",
-    "E5"
+    "C5",
+    "C4",
+    "C3",
+    "C2",
+    "D2",
+    "E2"
   ]
 }

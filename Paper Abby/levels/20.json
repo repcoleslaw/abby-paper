@@ -2,37 +2,55 @@
   "level": 20,
   "name": "The cut",
   "blurb": "The cliff closes the short step. The stick is on the long side of it.",
-  "aside": "Without the cliff she could step from F8 straight to F7, skip the stick at E8, finish in 10 steps, and score 0. That step is closed. The other road keeps the treats at A8 and A5, and the ball at C5. It is 10 steps and scores \u22125. With the cliff in place, the line through E8 scores \u22121.",
+  "aside": "Without the cliff she could step from F8 straight to F7, skip the stick at E8, finish in 10 steps, and score 0. That step is closed. The other road keeps the treats at A8 and A5, and the ball at C5. It is 10 steps and scores −5. With the cliff in place, the line through E8 scores −1.",
   "start": "A10",
-  "flag": "F5",
+  "flag": "C2",
   "open": [
+    "C2",
+    "D2",
+    "E2",
+    "F2",
+    "B3",
+    "C3",
+    "D3",
+    "F3",
+    "B4",
+    "F4",
+    "A5",
+    "B5",
+    "C5",
+    "D5",
+    "E5",
+    "F5",
+    "A6",
+    "C6",
+    "F6",
+    "A7",
+    "C7",
+    "E7",
+    "F7",
+    "A8",
+    "B8",
+    "C8",
+    "E8",
+    "F8",
+    "A9",
+    "F9",
     "A10",
     "B10",
     "C10",
     "D10",
     "E10",
-    "F10",
-    "F9",
-    "F8",
-    "E8",
-    "E7",
-    "F7",
-    "F6",
-    "F5",
-    "A9",
-    "A8",
-    "A7",
-    "A6",
-    "A5",
-    "B5",
-    "C5",
-    "D5",
-    "E5"
+    "F10"
+  ],
+  "water": [
+    "B3",
+    "B4"
   ],
   "cliffs": [
     [
-      "F8",
-      "F7"
+      "F7",
+      "F8"
     ]
   ],
   "pickups": [
@@ -75,22 +93,54 @@
     {
       "at": "F8",
       "kind": "ball"
+    },
+    {
+      "at": "F5",
+      "kind": "treat"
+    },
+    {
+      "at": "C3",
+      "kind": "ball"
+    },
+    {
+      "at": "E2",
+      "kind": "stick"
+    },
+    {
+      "at": "F7",
+      "kind": "vest"
+    },
+    {
+      "at": "C6",
+      "kind": "stick"
+    },
+    {
+      "at": "E5",
+      "kind": "stick"
+    },
+    {
+      "at": "C8",
+      "kind": "vest"
+    },
+    {
+      "at": "D5",
+      "kind": "stick"
     }
   ],
   "expect": [
     "A10",
-    "B10",
-    "C10",
-    "D10",
-    "E10",
-    "F10",
-    "F9",
-    "F8",
-    "E8",
-    "E7",
-    "F7",
-    "F6",
-    "F5"
+    "A9",
+    "A8",
+    "B8",
+    "C8",
+    "C7",
+    "C6",
+    "C5",
+    "B5",
+    "B4",
+    "B3",
+    "C3",
+    "C2"
   ],
   "checks": {
     "without_cliffs": 0

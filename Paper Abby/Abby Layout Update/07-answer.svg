@@ -33,7 +33,7 @@
   .circle { fill: #ffffff; stroke: #1c1915; stroke-width: 0.42; }
   .circle-dash { fill: #ffffff; stroke: #1c1915; stroke-width: 0.38; stroke-dasharray: 0.28 0.62; stroke-linecap: round; }
 </style>
-<title>Paper Abby 7. The open field answer</title>
+<title>Paper Abby 7. The Marsh answer</title>
 <rect class="paper" x="0" y="0" width="139.700" height="197.556"/>
 <g id="header">
 <rect class="header" x="0" y="0" width="139.700" height="26.811"/>
@@ -41,48 +41,48 @@
 <text class="label" x="79.02" y="7.53" font-size="2.7">The field is mostly open. The</text>
 <text class="label" x="79.02" y="11.03" font-size="2.7">stick and the treat share one</text>
 <text class="label" x="79.02" y="14.53" font-size="2.7">line.</text>
-<text class="title" x="8.47" y="21.64" font-size="8.2" font-weight="700">The open field</text>
+<text class="title" x="8.47" y="21.64" font-size="8.2" font-weight="700">The Marsh</text>
 <text class="answer-ink" x="133.59" y="21.64" font-size="3.2" text-anchor="end" letter-spacing="0.14" font-weight="700">ANSWER</text>
 </g>
 <g id="grid">
 <rect class="open" x="21.59" y="34.34" width="12.09" height="12.09"/>
-<rect class="open" x="33.68" y="34.34" width="12.09" height="12.09"/>
+<rect class="water" x="33.68" y="34.34" width="12.09" height="12.09"/>
 <rect class="open" x="45.77" y="34.34" width="12.09" height="12.09"/>
 <rect class="open" x="57.86" y="34.34" width="12.09" height="12.09"/>
 <rect class="open" x="69.94" y="34.34" width="12.09" height="12.09"/>
-<rect class="open" x="82.03" y="34.34" width="12.09" height="12.09"/>
+<rect class="tree" x="82.03" y="34.34" width="12.09" height="12.09"/>
 <rect class="open" x="21.59" y="46.43" width="12.09" height="12.09"/>
-<rect class="open" x="33.68" y="46.43" width="12.09" height="12.09"/>
-<rect class="open" x="45.77" y="46.43" width="12.09" height="12.09"/>
+<rect class="tree" x="33.68" y="46.43" width="12.09" height="12.09"/>
+<rect class="water" x="45.77" y="46.43" width="12.09" height="12.09"/>
 <rect class="open" x="57.86" y="46.43" width="12.09" height="12.09"/>
-<rect class="open" x="69.94" y="46.43" width="12.09" height="12.09"/>
+<rect class="water" x="69.94" y="46.43" width="12.09" height="12.09"/>
 <rect class="open" x="82.03" y="46.43" width="12.09" height="12.09"/>
 <rect class="open" x="21.59" y="58.51" width="12.09" height="12.09"/>
-<rect class="open" x="33.68" y="58.51" width="12.09" height="12.09"/>
-<rect class="open" x="45.77" y="58.51" width="12.09" height="12.09"/>
+<rect class="tree" x="33.68" y="58.51" width="12.09" height="12.09"/>
+<rect class="tree" x="45.77" y="58.51" width="12.09" height="12.09"/>
 <rect class="open" x="57.86" y="58.51" width="12.09" height="12.09"/>
 <rect class="open" x="69.94" y="58.51" width="12.09" height="12.09"/>
-<rect class="open" x="82.03" y="58.51" width="12.09" height="12.09"/>
+<rect class="tree" x="82.03" y="58.51" width="12.09" height="12.09"/>
 <rect class="open" x="21.59" y="70.60" width="12.09" height="12.09"/>
 <rect class="open" x="33.68" y="70.60" width="12.09" height="12.09"/>
-<rect class="open" x="45.77" y="70.60" width="12.09" height="12.09"/>
+<rect class="water" x="45.77" y="70.60" width="12.09" height="12.09"/>
 <rect class="open" x="57.86" y="70.60" width="12.09" height="12.09"/>
-<rect class="open" x="69.94" y="70.60" width="12.09" height="12.09"/>
-<rect class="open" x="82.03" y="70.60" width="12.09" height="12.09"/>
+<rect class="tree" x="69.94" y="70.60" width="12.09" height="12.09"/>
+<rect class="water" x="82.03" y="70.60" width="12.09" height="12.09"/>
 <rect class="open" x="21.59" y="82.69" width="12.09" height="12.09"/>
 <rect class="open" x="33.68" y="82.69" width="12.09" height="12.09"/>
-<rect class="open" x="45.77" y="82.69" width="12.09" height="12.09"/>
+<rect class="water" x="45.77" y="82.69" width="12.09" height="12.09"/>
 <rect class="open" x="57.86" y="82.69" width="12.09" height="12.09"/>
-<rect class="open" x="69.94" y="82.69" width="12.09" height="12.09"/>
-<rect class="open" x="82.03" y="82.69" width="12.09" height="12.09"/>
+<rect class="water" x="69.94" y="82.69" width="12.09" height="12.09"/>
+<rect class="tree" x="82.03" y="82.69" width="12.09" height="12.09"/>
 <rect class="open" x="21.59" y="94.78" width="12.09" height="12.09"/>
-<rect class="open" x="33.68" y="94.78" width="12.09" height="12.09"/>
+<rect class="water" x="33.68" y="94.78" width="12.09" height="12.09"/>
 <rect class="tree" x="45.77" y="94.78" width="12.09" height="12.09"/>
-<rect class="tree" x="57.86" y="94.78" width="12.09" height="12.09"/>
-<rect class="tree" x="69.94" y="94.78" width="12.09" height="12.09"/>
+<rect class="water" x="57.86" y="94.78" width="12.09" height="12.09"/>
+<rect class="water" x="69.94" y="94.78" width="12.09" height="12.09"/>
 <rect class="open" x="82.03" y="94.78" width="12.09" height="12.09"/>
 <rect class="open" x="21.59" y="106.87" width="12.09" height="12.09"/>
-<rect class="open" x="33.68" y="106.87" width="12.09" height="12.09"/>
+<rect class="water" x="33.68" y="106.87" width="12.09" height="12.09"/>
 <rect class="tree" x="45.77" y="106.87" width="12.09" height="12.09"/>
 <rect class="tree" x="57.86" y="106.87" width="12.09" height="12.09"/>
 <rect class="tree" x="69.94" y="106.87" width="12.09" height="12.09"/>
@@ -95,16 +95,16 @@
 <rect class="open" x="82.03" y="118.96" width="12.09" height="12.09"/>
 <rect class="open" x="21.59" y="131.05" width="12.09" height="12.09"/>
 <rect class="open" x="33.68" y="131.05" width="12.09" height="12.09"/>
-<rect class="open" x="45.77" y="131.05" width="12.09" height="12.09"/>
-<rect class="open" x="57.86" y="131.05" width="12.09" height="12.09"/>
-<rect class="open" x="69.94" y="131.05" width="12.09" height="12.09"/>
-<rect class="open" x="82.03" y="131.05" width="12.09" height="12.09"/>
+<rect class="water" x="45.77" y="131.05" width="12.09" height="12.09"/>
+<rect class="water" x="57.86" y="131.05" width="12.09" height="12.09"/>
+<rect class="water" x="69.94" y="131.05" width="12.09" height="12.09"/>
+<rect class="tree" x="82.03" y="131.05" width="12.09" height="12.09"/>
 <rect class="open" x="21.59" y="143.13" width="12.09" height="12.09"/>
-<rect class="open" x="33.68" y="143.13" width="12.09" height="12.09"/>
-<rect class="open" x="45.77" y="143.13" width="12.09" height="12.09"/>
-<rect class="open" x="57.86" y="143.13" width="12.09" height="12.09"/>
-<rect class="open" x="69.94" y="143.13" width="12.09" height="12.09"/>
-<rect class="open" x="82.03" y="143.13" width="12.09" height="12.09"/>
+<rect class="tree" x="33.68" y="143.13" width="12.09" height="12.09"/>
+<rect class="water" x="45.77" y="143.13" width="12.09" height="12.09"/>
+<rect class="tree" x="57.86" y="143.13" width="12.09" height="12.09"/>
+<rect class="water" x="69.94" y="143.13" width="12.09" height="12.09"/>
+<rect class="tree" x="82.03" y="143.13" width="12.09" height="12.09"/>
 <line class="gridline" x1="21.59" y1="34.34" x2="94.12" y2="34.34"/>
 <line class="gridline" x1="21.59" y1="46.43" x2="94.12" y2="46.43"/>
 <line class="gridline" x1="21.59" y1="58.51" x2="94.12" y2="58.51"/>
@@ -142,6 +142,111 @@
 <text class="label" x="19.79" y="150.08" font-size="2.6" text-anchor="end">10</text>
 </g>
 <g id="terrain">
+<g id="water-B1" transform="translate(39.72,40.38)">
+<g transform="scale(1.0074)">
+<path class="wave" d="M-3.6,-1.7 Q-1.8,-2.45 0,-1.7 T3.6,-1.7"/>
+<path class="wave" d="M-3.6,0.0 Q-1.8,-0.75 0,0.0 T3.6,0.0"/>
+<path class="wave" d="M-3.6,1.7 Q-1.8,0.95 0,1.7 T3.6,1.7"/>
+</g>
+</g>
+<g id="tree-F1" transform="translate(88.08,40.38)">
+<g transform="scale(1.0074)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+</g>
+<g id="tree-B2" transform="translate(39.72,52.47)">
+<g transform="scale(1.0074)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+</g>
+<g id="water-C2" transform="translate(51.81,52.47)">
+<g transform="scale(1.0074)">
+<path class="wave" d="M-3.6,-1.7 Q-1.8,-2.45 0,-1.7 T3.6,-1.7"/>
+<path class="wave" d="M-3.6,0.0 Q-1.8,-0.75 0,0.0 T3.6,0.0"/>
+<path class="wave" d="M-3.6,1.7 Q-1.8,0.95 0,1.7 T3.6,1.7"/>
+</g>
+</g>
+<g id="water-E2" transform="translate(75.99,52.47)">
+<g transform="scale(1.0074)">
+<path class="wave" d="M-3.6,-1.7 Q-1.8,-2.45 0,-1.7 T3.6,-1.7"/>
+<path class="wave" d="M-3.6,0.0 Q-1.8,-0.75 0,0.0 T3.6,0.0"/>
+<path class="wave" d="M-3.6,1.7 Q-1.8,0.95 0,1.7 T3.6,1.7"/>
+</g>
+</g>
+<g id="tree-B3" transform="translate(39.72,64.56)">
+<g transform="scale(1.0074)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+</g>
+<g id="tree-C3" transform="translate(51.81,64.56)">
+<g transform="scale(1.0074)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+</g>
+<g id="tree-F3" transform="translate(88.08,64.56)">
+<g transform="scale(1.0074)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+</g>
+<g id="water-C4" transform="translate(51.81,76.65)">
+<g transform="scale(1.0074)">
+<path class="wave" d="M-3.6,-1.7 Q-1.8,-2.45 0,-1.7 T3.6,-1.7"/>
+<path class="wave" d="M-3.6,0.0 Q-1.8,-0.75 0,0.0 T3.6,0.0"/>
+<path class="wave" d="M-3.6,1.7 Q-1.8,0.95 0,1.7 T3.6,1.7"/>
+</g>
+</g>
+<g id="tree-E4" transform="translate(75.99,76.65)">
+<g transform="scale(1.0074)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+</g>
+<g id="water-F4" transform="translate(88.08,76.65)">
+<g transform="scale(1.0074)">
+<path class="wave" d="M-3.6,-1.7 Q-1.8,-2.45 0,-1.7 T3.6,-1.7"/>
+<path class="wave" d="M-3.6,0.0 Q-1.8,-0.75 0,0.0 T3.6,0.0"/>
+<path class="wave" d="M-3.6,1.7 Q-1.8,0.95 0,1.7 T3.6,1.7"/>
+</g>
+</g>
+<g id="water-C5" transform="translate(51.81,88.74)">
+<g transform="scale(1.0074)">
+<path class="wave" d="M-3.6,-1.7 Q-1.8,-2.45 0,-1.7 T3.6,-1.7"/>
+<path class="wave" d="M-3.6,0.0 Q-1.8,-0.75 0,0.0 T3.6,0.0"/>
+<path class="wave" d="M-3.6,1.7 Q-1.8,0.95 0,1.7 T3.6,1.7"/>
+</g>
+</g>
+<g id="water-E5" transform="translate(75.99,88.74)">
+<g transform="scale(1.0074)">
+<path class="wave" d="M-3.6,-1.7 Q-1.8,-2.45 0,-1.7 T3.6,-1.7"/>
+<path class="wave" d="M-3.6,0.0 Q-1.8,-0.75 0,0.0 T3.6,0.0"/>
+<path class="wave" d="M-3.6,1.7 Q-1.8,0.95 0,1.7 T3.6,1.7"/>
+</g>
+</g>
+<g id="tree-F5" transform="translate(88.08,88.74)">
+<g transform="scale(1.0074)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+</g>
+<g id="water-B6" transform="translate(39.72,100.82)">
+<g transform="scale(1.0074)">
+<path class="wave" d="M-3.6,-1.7 Q-1.8,-2.45 0,-1.7 T3.6,-1.7"/>
+<path class="wave" d="M-3.6,0.0 Q-1.8,-0.75 0,0.0 T3.6,0.0"/>
+<path class="wave" d="M-3.6,1.7 Q-1.8,0.95 0,1.7 T3.6,1.7"/>
+</g>
+</g>
 <g id="tree-C6" transform="translate(51.81,100.82)">
 <g transform="scale(1.0074)">
 <line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
@@ -149,18 +254,25 @@
 <circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
 </g>
 </g>
-<g id="tree-D6" transform="translate(63.90,100.82)">
+<g id="water-D6" transform="translate(63.90,100.82)">
 <g transform="scale(1.0074)">
-<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
-<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
-<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+<path class="wave" d="M-3.6,-1.7 Q-1.8,-2.45 0,-1.7 T3.6,-1.7"/>
+<path class="wave" d="M-3.6,0.0 Q-1.8,-0.75 0,0.0 T3.6,0.0"/>
+<path class="wave" d="M-3.6,1.7 Q-1.8,0.95 0,1.7 T3.6,1.7"/>
 </g>
 </g>
-<g id="tree-E6" transform="translate(75.99,100.82)">
+<g id="water-E6" transform="translate(75.99,100.82)">
 <g transform="scale(1.0074)">
-<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
-<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
-<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+<path class="wave" d="M-3.6,-1.7 Q-1.8,-2.45 0,-1.7 T3.6,-1.7"/>
+<path class="wave" d="M-3.6,0.0 Q-1.8,-0.75 0,0.0 T3.6,0.0"/>
+<path class="wave" d="M-3.6,1.7 Q-1.8,0.95 0,1.7 T3.6,1.7"/>
+</g>
+</g>
+<g id="water-B7" transform="translate(39.72,112.91)">
+<g transform="scale(1.0074)">
+<path class="wave" d="M-3.6,-1.7 Q-1.8,-2.45 0,-1.7 T3.6,-1.7"/>
+<path class="wave" d="M-3.6,0.0 Q-1.8,-0.75 0,0.0 T3.6,0.0"/>
+<path class="wave" d="M-3.6,1.7 Q-1.8,0.95 0,1.7 T3.6,1.7"/>
 </g>
 </g>
 <g id="tree-C7" transform="translate(51.81,112.91)">
@@ -184,9 +296,72 @@
 <circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
 </g>
 </g>
+<g id="water-C9" transform="translate(51.81,137.09)">
+<g transform="scale(1.0074)">
+<path class="wave" d="M-3.6,-1.7 Q-1.8,-2.45 0,-1.7 T3.6,-1.7"/>
+<path class="wave" d="M-3.6,0.0 Q-1.8,-0.75 0,0.0 T3.6,0.0"/>
+<path class="wave" d="M-3.6,1.7 Q-1.8,0.95 0,1.7 T3.6,1.7"/>
+</g>
+</g>
+<g id="water-D9" transform="translate(63.90,137.09)">
+<g transform="scale(1.0074)">
+<path class="wave" d="M-3.6,-1.7 Q-1.8,-2.45 0,-1.7 T3.6,-1.7"/>
+<path class="wave" d="M-3.6,0.0 Q-1.8,-0.75 0,0.0 T3.6,0.0"/>
+<path class="wave" d="M-3.6,1.7 Q-1.8,0.95 0,1.7 T3.6,1.7"/>
+</g>
+</g>
+<g id="water-E9" transform="translate(75.99,137.09)">
+<g transform="scale(1.0074)">
+<path class="wave" d="M-3.6,-1.7 Q-1.8,-2.45 0,-1.7 T3.6,-1.7"/>
+<path class="wave" d="M-3.6,0.0 Q-1.8,-0.75 0,0.0 T3.6,0.0"/>
+<path class="wave" d="M-3.6,1.7 Q-1.8,0.95 0,1.7 T3.6,1.7"/>
+</g>
+</g>
+<g id="tree-F9" transform="translate(88.08,137.09)">
+<g transform="scale(1.0074)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="-0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="0.95" cy="0.55" r="1.45"/>
+</g>
+</g>
+<g id="tree-B10" transform="translate(39.72,149.18)">
+<g transform="scale(1.0074)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+</g>
+<g id="water-C10" transform="translate(51.81,149.18)">
+<g transform="scale(1.0074)">
+<path class="wave" d="M-3.6,-1.7 Q-1.8,-2.45 0,-1.7 T3.6,-1.7"/>
+<path class="wave" d="M-3.6,0.0 Q-1.8,-0.75 0,0.0 T3.6,0.0"/>
+<path class="wave" d="M-3.6,1.7 Q-1.8,0.95 0,1.7 T3.6,1.7"/>
+</g>
+</g>
+<g id="tree-D10" transform="translate(63.90,149.18)">
+<g transform="scale(1.0074)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+</g>
+<g id="water-E10" transform="translate(75.99,149.18)">
+<g transform="scale(1.0074)">
+<path class="wave" d="M-3.6,-1.7 Q-1.8,-2.45 0,-1.7 T3.6,-1.7"/>
+<path class="wave" d="M-3.6,0.0 Q-1.8,-0.75 0,0.0 T3.6,0.0"/>
+<path class="wave" d="M-3.6,1.7 Q-1.8,0.95 0,1.7 T3.6,1.7"/>
+</g>
+</g>
+<g id="tree-F10" transform="translate(88.08,149.18)">
+<g transform="scale(1.0074)">
+<line class="trunk" x1="0" y1="0.9" x2="0" y2="3.5"/>
+<circle class="canopy" cx="0.35" cy="-0.55" r="2.15"/>
+<circle class="canopy" cx="-0.95" cy="0.55" r="1.45"/>
+</g>
+</g>
 </g>
 <g id="answer">
-<polyline class="answer-line" points="27.63,149.18 27.63,137.09 27.63,125.00 27.63,112.91 27.63,100.82 27.63,88.74 27.63,76.65 27.63,64.56 27.63,52.47 39.72,52.47 51.81,52.47 63.90,52.47 75.99,52.47 88.08,52.47"/>
+<polyline class="answer-line" points="27.63,149.18 27.63,137.09 27.63,125.00 39.72,125.00 51.81,125.00 63.90,125.00 75.99,125.00 88.08,125.00 88.08,112.91 88.08,100.82 75.99,100.82 75.99,88.74 63.90,88.74 63.90,76.65 63.90,64.56 75.99,64.56 75.99,52.47 88.08,52.47"/>
 </g>
 <g id="dots">
 <circle class="dot" cx="27.63" cy="40.38" r="0.72"/>
@@ -194,33 +369,28 @@
 <circle class="dot" cx="51.81" cy="40.38" r="0.72"/>
 <circle class="dot" cx="63.90" cy="40.38" r="0.72"/>
 <circle class="dot" cx="75.99" cy="40.38" r="0.72"/>
-<circle class="dot" cx="88.08" cy="40.38" r="0.72"/>
 <circle class="dot" cx="27.63" cy="52.47" r="0.72"/>
-<circle class="dot" cx="39.72" cy="52.47" r="0.72"/>
 <circle class="dot" cx="51.81" cy="52.47" r="0.72"/>
 <circle class="dot" cx="63.90" cy="52.47" r="0.72"/>
 <circle class="dot" cx="75.99" cy="52.47" r="0.72"/>
 <circle class="dot" cx="88.08" cy="52.47" r="0.72"/>
 <circle class="dot" cx="27.63" cy="64.56" r="0.72"/>
-<circle class="dot" cx="39.72" cy="64.56" r="0.72"/>
-<circle class="dot" cx="51.81" cy="64.56" r="0.72"/>
 <circle class="dot" cx="63.90" cy="64.56" r="0.72"/>
 <circle class="dot" cx="75.99" cy="64.56" r="0.72"/>
-<circle class="dot" cx="88.08" cy="64.56" r="0.72"/>
 <circle class="dot" cx="27.63" cy="76.65" r="0.72"/>
 <circle class="dot" cx="39.72" cy="76.65" r="0.72"/>
 <circle class="dot" cx="51.81" cy="76.65" r="0.72"/>
 <circle class="dot" cx="63.90" cy="76.65" r="0.72"/>
-<circle class="dot" cx="75.99" cy="76.65" r="0.72"/>
 <circle class="dot" cx="88.08" cy="76.65" r="0.72"/>
 <circle class="dot" cx="27.63" cy="88.74" r="0.72"/>
 <circle class="dot" cx="39.72" cy="88.74" r="0.72"/>
 <circle class="dot" cx="51.81" cy="88.74" r="0.72"/>
 <circle class="dot" cx="63.90" cy="88.74" r="0.72"/>
 <circle class="dot" cx="75.99" cy="88.74" r="0.72"/>
-<circle class="dot" cx="88.08" cy="88.74" r="0.72"/>
 <circle class="dot" cx="27.63" cy="100.82" r="0.72"/>
 <circle class="dot" cx="39.72" cy="100.82" r="0.72"/>
+<circle class="dot" cx="63.90" cy="100.82" r="0.72"/>
+<circle class="dot" cx="75.99" cy="100.82" r="0.72"/>
 <circle class="dot" cx="88.08" cy="100.82" r="0.72"/>
 <circle class="dot" cx="27.63" cy="112.91" r="0.72"/>
 <circle class="dot" cx="39.72" cy="112.91" r="0.72"/>
@@ -236,13 +406,9 @@
 <circle class="dot" cx="51.81" cy="137.09" r="0.72"/>
 <circle class="dot" cx="63.90" cy="137.09" r="0.72"/>
 <circle class="dot" cx="75.99" cy="137.09" r="0.72"/>
-<circle class="dot" cx="88.08" cy="137.09" r="0.72"/>
 <circle class="dot" cx="27.63" cy="149.18" r="0.72"/>
-<circle class="dot" cx="39.72" cy="149.18" r="0.72"/>
 <circle class="dot" cx="51.81" cy="149.18" r="0.72"/>
-<circle class="dot" cx="63.90" cy="149.18" r="0.72"/>
 <circle class="dot" cx="75.99" cy="149.18" r="0.72"/>
-<circle class="dot" cx="88.08" cy="149.18" r="0.72"/>
 </g>
 <g id="items">
 <g id="treat-A7" transform="translate(27.63,109.74)">
@@ -261,6 +427,34 @@
 <g transform="scale(1.0074)"><circle class="item" cx="0" cy="0" r="1.15"/><path class="item" d="M-0.75,-0.65 Q0.05,0.15 0.8,-0.6"/><path class="item" d="M-0.75,0.65 Q0.05,-0.15 0.8,0.6"/></g>
 </g>
 <text class="label" x="79.31" y="44.56" font-size="1.7" text-anchor="middle">B</text>
+<g id="ball-B4" transform="translate(39.72,73.47)">
+<g transform="scale(1.0074)"><circle class="item" cx="0" cy="0" r="1.15"/><path class="item" d="M-0.75,-0.65 Q0.05,0.15 0.8,-0.6"/><path class="item" d="M-0.75,0.65 Q0.05,-0.15 0.8,0.6"/></g>
+</g>
+<text class="label" x="43.05" y="80.83" font-size="1.7" text-anchor="middle">B</text>
+<g id="treat-D4" transform="translate(63.90,73.47)">
+<g transform="scale(1.0074)"><rect class="item-fill" x="-1.05" y="-0.36" width="2.1" height="0.72" rx="0.3"/><circle class="item-fill" cx="-1.15" cy="-0.42" r="0.4"/><circle class="item-fill" cx="-1.15" cy="0.42" r="0.4"/><circle class="item-fill" cx="1.15" cy="-0.42" r="0.4"/><circle class="item-fill" cx="1.15" cy="0.42" r="0.4"/></g>
+</g>
+<text class="label" x="67.22" y="80.83" font-size="1.7" text-anchor="middle">T</text>
+<g id="vest-E8" transform="translate(75.99,121.83)">
+<g transform="scale(1.0074)"><path class="item" d="M-1.25,-1.35 L-1.25,1.25 L1.25,1.25 L1.25,-1.35 L0.42,-1.35 L0.42,-0.25 L-0.42,-0.25 L-0.42,-1.35 Z"/><line class="item" x1="0" y1="-0.25" x2="0" y2="1.25"/></g>
+</g>
+<text class="label" x="79.31" y="129.18" font-size="1.7" text-anchor="middle">V</text>
+<g id="treat-F6" transform="translate(88.08,97.65)">
+<g transform="scale(1.0074)"><rect class="item-fill" x="-1.05" y="-0.36" width="2.1" height="0.72" rx="0.3"/><circle class="item-fill" cx="-1.15" cy="-0.42" r="0.4"/><circle class="item-fill" cx="-1.15" cy="0.42" r="0.4"/><circle class="item-fill" cx="1.15" cy="-0.42" r="0.4"/><circle class="item-fill" cx="1.15" cy="0.42" r="0.4"/></g>
+</g>
+<text class="label" x="91.40" y="105.00" font-size="1.7" text-anchor="middle">T</text>
+<g id="stick-C1" transform="translate(51.81,37.21)">
+<g transform="scale(1.0074)"><line class="item" x1="-1.45" y1="1.05" x2="1.35" y2="-1.15"/><line class="item" x1="0.05" y1="-0.15" x2="1.1" y2="0.5"/></g>
+</g>
+<text class="label" x="55.14" y="44.56" font-size="1.7" text-anchor="middle">S</text>
+<g id="stick-A6" transform="translate(27.63,97.65)">
+<g transform="scale(1.0074)"><line class="item" x1="-1.45" y1="1.05" x2="1.35" y2="-1.15"/><line class="item" x1="0.05" y1="-0.15" x2="1.1" y2="0.5"/></g>
+</g>
+<text class="label" x="30.96" y="105.00" font-size="1.7" text-anchor="middle">S</text>
+<g id="ball-E3" transform="translate(75.99,61.39)">
+<g transform="scale(1.0074)"><circle class="item" cx="0" cy="0" r="1.15"/><path class="item" d="M-0.75,-0.65 Q0.05,0.15 0.8,-0.6"/><path class="item" d="M-0.75,0.65 Q0.05,-0.15 0.8,0.6"/></g>
+</g>
+<text class="label" x="79.31" y="68.74" font-size="1.7" text-anchor="middle">B</text>
 <g id="abby" transform="translate(27.63,146.00)">
 <g transform="scale(1.0074)"><ellipse class="item-fill" cx="0" cy="0.55" rx="1.22" ry="0.92"/><circle class="item-fill" cx="-1.05" cy="-0.82" r="0.4"/><circle class="item-fill" cx="-0.36" cy="-1.22" r="0.4"/><circle class="item-fill" cx="0.38" cy="-1.22" r="0.4"/><circle class="item-fill" cx="1.08" cy="-0.78" r="0.4"/></g>
 </g>
@@ -272,13 +466,13 @@
 <circle fill="#1c1915" cx="116.65" cy="36.69" r="2.54"/>
 <circle fill="#1c1915" cx="127.47" cy="36.69" r="2.54"/>
 <circle fill="#1c1915" cx="116.65" cy="44.69" r="2.54"/>
-<circle class="circle-dash" cx="127.47" cy="44.69" r="2.54"/>
+<circle fill="#1c1915" cx="127.47" cy="44.69" r="2.54"/>
 <circle fill="#1c1915" cx="116.65" cy="52.68" r="2.54"/>
-<circle class="circle-dash" cx="127.47" cy="52.68" r="2.54"/>
+<circle fill="#1c1915" cx="127.47" cy="52.68" r="2.54"/>
 <circle fill="#1c1915" cx="116.65" cy="60.68" r="2.54"/>
-<circle class="circle-dash" cx="127.47" cy="60.68" r="2.54"/>
+<circle fill="#1c1915" cx="127.47" cy="60.68" r="2.54"/>
 <circle fill="#1c1915" cx="116.65" cy="68.67" r="2.54"/>
-<circle class="circle-dash" cx="127.47" cy="68.67" r="2.54"/>
+<circle fill="#1c1915" cx="127.47" cy="68.67" r="2.54"/>
 <circle fill="#1c1915" cx="116.65" cy="76.67" r="2.54"/>
 <circle class="circle-dash" cx="127.47" cy="76.67" r="2.54"/>
 <circle fill="#1c1915" cx="116.65" cy="84.67" r="2.54"/>
@@ -295,13 +489,14 @@
 <circle class="circle-dash" cx="127.47" cy="124.65" r="2.54"/>
 <rect class="box" x="111.48" y="136.41" width="22.11" height="18.81"/>
 <text class="label" x="112.98" y="140.01" font-size="2.5">steps</text>
-<text class="answer-ink" x="122.53" y="148.91" font-size="7" text-anchor="middle" font-weight="700">13</text>
+<text class="answer-ink" x="122.53" y="148.91" font-size="7" text-anchor="middle" font-weight="700">17</text>
 </g>
 <g id="tally">
 <rect class="box" x="7.53" y="162.75" width="12.23" height="11.76"/>
 <rect class="box" x="19.76" y="162.75" width="11.76" height="11.76"/>
 <rect class="box" x="35.75" y="162.75" width="71.97" height="11.76"/>
 <g class="tally-tool" transform="translate(13.64,168.63) scale(3.123)"><path class="item" d="M-1.25,-1.35 L-1.25,1.25 L1.25,1.25 L1.25,-1.35 L0.42,-1.35 L0.42,-0.25 L-0.42,-0.25 L-0.42,-1.35 Z"/><line class="item" x1="0" y1="-0.25" x2="0" y2="1.25"/></g>
+<polyline fill="none" stroke="#9c2f2f" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" points="21.86,168.15 24.06,170.35 28.26,165.95"/>
 <g class="tally-tool" transform="translate(42.15,168.63) scale(3.123)"><line class="item" x1="-1.45" y1="1.05" x2="1.35" y2="-1.15"/><line class="item" x1="0.05" y1="-0.15" x2="1.1" y2="0.5"/></g>
 <rect class="box" x="7.53" y="177.80" width="12.23" height="11.76"/>
 <rect class="box" x="19.76" y="177.80" width="11.76" height="11.76"/>

@@ -119,10 +119,22 @@
       const rc = parseCell(item.at, rows, cols);
       pickups.push({ at: cellName(rc[0], rc[1]), kind: item.kind });
     }
+    const checks = {};
+    if (data.checks && typeof data.checks === "object" && !Array.isArray(data.checks)) {
+      for (const name of Object.keys(data.checks)) checks[name] = data.checks[name];
+    }
+    const expect = [];
+    if (Array.isArray(data.expect)) {
+      for (const token of data.expect) {
+        const rc = parseCell(token, rows, cols);
+        expect.push(cellName(rc[0], rc[1]));
+      }
+    }
     return {
       level: data.level == null ? 1 : data.level,
       name: data.name == null ? "Imported walk" : data.name,
       blurb: data.blurb == null ? "" : data.blurb,
+      aside: data.aside == null ? "" : String(data.aside),
       rows,
       cols,
       start: cellName(...parseCell(data.start, rows, cols)),
@@ -134,6 +146,9 @@
       treatEnergy:
         data.treat_energy == null ? 3 : Number(data.treat_energy),
       energyCap: data.energy_cap == null ? 24 : Number(data.energy_cap),
+      checks,
+      expect: expect.length ? expect : null,
+      shape: hasTrees ? "trees" : "open",
       answer: null,
     };
   }
@@ -142,13 +157,15 @@
     const rows = doc.rows || 10;
     const cols = doc.cols || 6;
     const open = [];
+    const trees = [];
     const water = [];
     const caves = [];
     for (let r = 0; r < rows; r += 1) {
       for (let c = 0; c < cols; c += 1) {
         const name = cellName(r, c);
         const kind = (doc.terrain && doc.terrain[name]) || "dot";
-        if (kind !== "tree") open.push(name);
+        if (kind === "tree") trees.push(name);
+        else open.push(name);
         if (kind === "water") water.push(name);
         if (kind === "cave") caves.push(name);
       }
@@ -157,10 +174,12 @@
       level: Number(doc.level),
       name: doc.name,
       blurb: doc.blurb == null ? "" : doc.blurb,
-      start: doc.start,
-      flag: doc.flag,
-      open,
     };
+    if (doc.aside) paper.aside = doc.aside;
+    paper.start = doc.start;
+    paper.flag = doc.flag;
+    if (doc.shape === "trees") paper.trees = trees;
+    else paper.open = open;
     if (water.length) paper.water = water;
     if (caves.length) paper.caves = caves;
     if (doc.ridges && doc.ridges.length) {
@@ -179,8 +198,19 @@
     if (doc.energyCap != null && doc.energyCap !== 24) {
       paper.energy_cap = doc.energyCap;
     }
-    if (doc.answer && doc.answer.ok && doc.answer.path) {
-      paper.expect = doc.answer.path.slice();
+    const fresh =
+      doc.answer && doc.answer.ok && Array.isArray(doc.answer.path) && doc.answer.path.length
+        ? doc.answer.path
+        : null;
+    const line = fresh || (Array.isArray(doc.expect) ? doc.expect : null);
+    if (line && line.length) paper.expect = line.slice();
+    if (doc.checks && typeof doc.checks === "object" && !Array.isArray(doc.checks)) {
+      const names = Object.keys(doc.checks);
+      if (names.length) {
+        const checks = {};
+        for (const name of names) checks[name] = doc.checks[name];
+        paper.checks = checks;
+      }
     }
     return paper;
   }
