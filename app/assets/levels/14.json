@@ -1,0 +1,132 @@
+{
+  "level": 14,
+  "name": "The A Piece of Candy",
+  "blurb": "One more ball, two more steps. The long road is the better score.",
+  "start": "C10",
+  "flag": "E2",
+  "open": [
+    "B1",
+    "A2",
+    "B2",
+    "C2",
+    "D2",
+    "E2",
+    "C3",
+    "E3",
+    "A4",
+    "B4",
+    "C4",
+    "E4",
+    "A5",
+    "C5",
+    "D5",
+    "E5",
+    "A6",
+    "B6",
+    "E6",
+    "A7",
+    "B7",
+    "C7",
+    "D7",
+    "E7",
+    "F7",
+    "A8",
+    "C8",
+    "D8",
+    "F8",
+    "A9",
+    "C9",
+    "D9",
+    "E9",
+    "F9",
+    "A10",
+    "B10",
+    "C10",
+    "E10",
+    "F10"
+  ],
+  "water": [
+    "B1",
+    "A2",
+    "B2",
+    "C7",
+    "C8",
+    "E10",
+    "F10"
+  ],
+  "caves": [
+    "E3"
+  ],
+  "cliffs": [
+    [
+      "A6",
+      "A7"
+    ],
+    [
+      "B7",
+      "C7"
+    ]
+  ],
+  "pickups": [
+    {
+      "at": "A9",
+      "kind": "treat"
+    },
+    {
+      "at": "B10",
+      "kind": "treat"
+    },
+    {
+      "at": "A5",
+      "kind": "stick"
+    },
+    {
+      "at": "A7",
+      "kind": "stick"
+    },
+    {
+      "at": "C9",
+      "kind": "stick"
+    },
+    {
+      "at": "D7",
+      "kind": "stick"
+    },
+    {
+      "at": "C4",
+      "kind": "ball"
+    },
+    {
+      "at": "D5",
+      "kind": "ball"
+    },
+    {
+      "at": "E6",
+      "kind": "ball"
+    },
+    {
+      "at": "F8",
+      "kind": "lamp"
+    },
+    {
+      "at": "D8",
+      "kind": "ball"
+    },
+    {
+      "at": "B6",
+      "kind": "ball"
+    },
+    {
+      "at": "E7",
+      "kind": "treat"
+    },
+    {
+      "at": "B4",
+      "kind": "treat"
+    },
+    {
+      "at": "C3",
+      "kind": "treat"
+    }
+  ]
+}

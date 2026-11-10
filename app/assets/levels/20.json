@@ -1,0 +1,129 @@
+{
+  "level": 20,
+  "name": "The cut",
+  "blurb": "The cliff closes the short step. The stick is on the long side of it.",
+  "start": "A10",
+  "flag": "C2",
+  "open": [
+    "C2",
+    "D2",
+    "E2",
+    "F2",
+    "B3",
+    "C3",
+    "D3",
+    "F3",
+    "B4",
+    "F4",
+    "A5",
+    "B5",
+    "C5",
+    "D5",
+    "E5",
+    "F5",
+    "A6",
+    "C6",
+    "F6",
+    "A7",
+    "C7",
+    "E7",
+    "F7",
+    "A8",
+    "B8",
+    "C8",
+    "E8",
+    "F8",
+    "A9",
+    "F9",
+    "A10",
+    "B10",
+    "C10",
+    "D10",
+    "E10",
+    "F10"
+  ],
+  "water": [
+    "B3",
+    "B4"
+  ],
+  "cliffs": [
+    [
+      "F7",
+      "F8"
+    ]
+  ],
+  "pickups": [
+    {
+      "at": "A5",
+      "kind": "treat"
+    },
+    {
+      "at": "A8",
+      "kind": "treat"
+    },
+    {
+      "at": "C10",
+      "kind": "treat"
+    },
+    {
+      "at": "D10",
+      "kind": "stick"
+    },
+    {
+      "at": "E8",
+      "kind": "stick"
+    },
+    {
+      "at": "F6",
+      "kind": "stick"
+    },
+    {
+      "at": "F9",
+      "kind": "stick"
+    },
+    {
+      "at": "C5",
+      "kind": "ball"
+    },
+    {
+      "at": "E10",
+      "kind": "ball"
+    },
+    {
+      "at": "F8",
+      "kind": "ball"
+    },
+    {
+      "at": "F5",
+      "kind": "treat"
+    },
+    {
+      "at": "C3",
+      "kind": "ball"
+    },
+    {
+      "at": "E2",
+      "kind": "stick"
+    },
+    {
+      "at": "F7",
+      "kind": "vest"
+    },
+    {
+      "at": "C6",
+      "kind": "stick"
+    },
+    {
+      "at": "E5",
+      "kind": "stick"
+    },
+    {
+      "at": "C8",
+      "kind": "vest"
+    },
+    {
+      "at": "D5",
+      "kind": "stick"
+    }
+  ]
+}

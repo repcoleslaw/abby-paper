@@ -1,0 +1,90 @@
+{
+  "level": 18,
+  "name": "The high cave",
+  "blurb": "An arch on the long road. The lamp is already on the way.",
+  "start": "F10",
+  "flag": "D1",
+  "open": [
+    "C1",
+    "D1",
+    "C2",
+    "D2",
+    "C3",
+    "A4",
+    "B4",
+    "C4",
+    "D4",
+    "A5",
+    "D5",
+    "A6",
+    "B6",
+    "D6",
+    "E6",
+    "F6",
+    "B7",
+    "F7",
+    "B8",
+    "F8",
+    "B9",
+    "C9",
+    "D9",
+    "F9",
+    "D10",
+    "E10",
+    "F10"
+  ],
+  "caves": [
+    "C3",
+    "E6"
+  ],
+  "pickups": [
+    {
+      "at": "E10",
+      "kind": "stick"
+    },
+    {
+      "at": "F9",
+      "kind": "treat"
+    },
+    {
+      "at": "F6",
+      "kind": "lamp"
+    },
+    {
+      "at": "B4",
+      "kind": "stick"
+    },
+    {
+      "at": "B9",
+      "kind": "stick"
+    },
+    {
+      "at": "D5",
+      "kind": "stick"
+    },
+    {
+      "at": "F8",
+      "kind": "stick"
+    },
+    {
+      "at": "A4",
+      "kind": "ball"
+    },
+    {
+      "at": "A6",
+      "kind": "ball"
+    },
+    {
+      "at": "D4",
+      "kind": "ball"
+    },
+    {
+      "at": "B7",
+      "kind": "lamp"
+    },
+    {
+      "at": "A5",
+      "kind": "treat"
+    }
+  ]
+}

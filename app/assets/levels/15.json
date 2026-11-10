@@ -1,0 +1,130 @@
+{
+  "level": 15,
+  "name": "The creek",
+  "blurb": "Cross after the vest. The far pocket is worth the two steps.",
+  "start": "F10",
+  "flag": "C3",
+  "open": [
+    "D1",
+    "E2",
+    "C3",
+    "D3",
+    "E3",
+    "F3",
+    "B4",
+    "C4",
+    "E4",
+    "F4",
+    "B5",
+    "E5",
+    "B6",
+    "D6",
+    "E6",
+    "B7",
+    "D7",
+    "E7",
+    "B8",
+    "C8",
+    "D8",
+    "E8",
+    "F8",
+    "A9",
+    "B9",
+    "C9",
+    "D9",
+    "E9",
+    "F9",
+    "D10",
+    "E10",
+    "F10"
+  ],
+  "water": [
+    "D1",
+    "E2",
+    "F3",
+    "F4",
+    "E5",
+    "D6",
+    "D7",
+    "C8",
+    "D8",
+    "A9",
+    "B9"
+  ],
+  "cliffs": [
+    [
+      "D8",
+      "D9"
+    ],
+    [
+      "D8",
+      "E8"
+    ],
+    [
+      "D7",
+      "E7"
+    ],
+    [
+      "D6",
+      "E6"
+    ],
+    [
+      "C8",
+      "C9"
+    ]
+  ],
+  "pickups": [
+    {
+      "at": "E10",
+      "kind": "treat"
+    },
+    {
+      "at": "F9",
+      "kind": "treat"
+    },
+    {
+      "at": "B4",
+      "kind": "stick"
+    },
+    {
+      "at": "B7",
+      "kind": "stick"
+    },
+    {
+      "at": "D10",
+      "kind": "stick"
+    },
+    {
+      "at": "E6",
+      "kind": "stick"
+    },
+    {
+      "at": "B6",
+      "kind": "ball"
+    },
+    {
+      "at": "C4",
+      "kind": "ball"
+    },
+    {
+      "at": "D3",
+      "kind": "ball"
+    },
+    {
+      "at": "E9",
+      "kind": "vest"
+    },
+    {
+      "at": "E3",
+      "kind": "treat"
+    },
+    {
+      "at": "B8",
+      "kind": "stick"
+    },
+    {
+      "at": "F8",
+      "kind": "ball"
+    }
+  ]
+}

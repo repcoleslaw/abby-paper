@@ -1,0 +1,148 @@
+{
+  "level": 25,
+  "name": "The babypoint loop",
+  "blurb": "Both gates, and a short road that finishes three points worse.",
+  "start": "C10",
+  "flag": "E10",
+  "open": [
+    "A1",
+    "B1",
+    "C1",
+    "D1",
+    "E1",
+    "A2",
+    "B2",
+    "C2",
+    "D2",
+    "E2",
+    "F2",
+    "A3",
+    "D3",
+    "F3",
+    "A4",
+    "C4",
+    "D4",
+    "F4",
+    "A5",
+    "B5",
+    "C5",
+    "D5",
+    "E5",
+    "F5",
+    "A6",
+    "B6",
+    "E6",
+    "F6",
+    "B7",
+    "E7",
+    "B8",
+    "C8",
+    "D8",
+    "E8",
+    "C9",
+    "D9",
+    "E9",
+    "C10",
+    "E10"
+  ],
+  "water": [
+    "A1",
+    "B1",
+    "C1",
+    "D1",
+    "E1"
+  ],
+  "caves": [
+    "D3",
+    "B5",
+    "E5"
+  ],
+  "cliffs": [
+    [
+      "A1",
+      "A2"
+    ],
+    [
+      "B1",
+      "B2"
+    ],
+    [
+      "C1",
+      "C2"
+    ],
+    [
+      "D1",
+      "D2"
+    ],
+    [
+      "E1",
+      "E2"
+    ],
+    [
+      "C9",
+      "D9"
+    ],
+    [
+      "C8",
+      "D8"
+    ]
+  ],
+  "pickups": [
+    {
+      "at": "C2",
+      "kind": "stick"
+    },
+    {
+      "at": "D8",
+      "kind": "ball"
+    },
+    {
+      "at": "E9",
+      "kind": "ball"
+    },
+    {
+      "at": "C4",
+      "kind": "ball"
+    },
+    {
+      "at": "C5",
+      "kind": "ball"
+    },
+    {
+      "at": "D4",
+      "kind": "ball"
+    },
+    {
+      "at": "D5",
+      "kind": "ball"
+    },
+    {
+      "at": "A2",
+      "kind": "lamp"
+    },
+    {
+      "at": "E2",
+      "kind": "stick"
+    },
+    {
+      "at": "F3",
+      "kind": "stick"
+    },
+    {
+      "at": "F4",
+      "kind": "treat"
+    },
+    {
+      "at": "A4",
+      "kind": "treat"
+    },
+    {
+      "at": "B6",
+      "kind": "treat"
+    },
+    {
+      "at": "D2",
+      "kind": "treat"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "level": 8,
+  "name": "The Open Field",
+  "blurb": "An open field",
+  "start": "A10",
+  "flag": "F1",
+  "trees": [
+    "A1",
+    "B1",
+    "A2",
+    "F5",
+    "F6",
+    "B7",
+    "C7",
+    "B8",
+    "C8",
+    "E9",
+    "F9"
+  ],
+  "pickups": [
+    {
+      "at": "A8",
+      "kind": "treat"
+    },
+    {
+      "at": "A4",
+      "kind": "stick"
+    },
+    {
+      "at": "F4",
+      "kind": "stick"
+    },
+    {
+      "at": "B9",
+      "kind": "ball"
+    },
+    {
+      "at": "D5",
+      "kind": "stick"
+    },
+    {
+      "at": "E6",
+      "kind": "stick"
+    },
+    {
+      "at": "D2",
+      "kind": "stick"
+    },
+    {
+      "at": "D4",
+      "kind": "ball"
+    },
+    {
+      "at": "D8",
+      "kind": "ball"
+    },
+    {
+      "at": "D1",
+      "kind": "stick"
+    },
+    {
+      "at": "C4",
+      "kind": "treat"
+    }
+  ]
+}

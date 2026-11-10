@@ -1,0 +1,84 @@
+{
+  "level": 6,
+  "name": "The ball",
+  "blurb": "The ball is two steps off the walk. Those two steps are worth taking.",
+  "start": "A10",
+  "flag": "F5",
+  "open": [
+    "B1",
+    "A2",
+    "C3",
+    "D3",
+    "C4",
+    "D4",
+    "E4",
+    "F4",
+    "C5",
+    "F5",
+    "C6",
+    "D6",
+    "B7",
+    "C7",
+    "D7",
+    "A8",
+    "B8",
+    "A9",
+    "B9",
+    "E9",
+    "F9",
+    "A10",
+    "B10",
+    "D10",
+    "E10",
+    "F10"
+  ],
+  "water": [
+    "B1",
+    "A2",
+    "B7",
+    "E9",
+    "F9",
+    "D10",
+    "E10",
+    "F10"
+  ],
+  "caves": [
+    "C5"
+  ],
+  "cliffs": [
+    [
+      "C4",
+      "D4"
+    ]
+  ],
+  "pickups": [
+    {
+      "at": "A9",
+      "kind": "treat"
+    },
+    {
+      "at": "A8",
+      "kind": "vest"
+    },
+    {
+      "at": "C6",
+      "kind": "lamp"
+    },
+    {
+      "at": "C3",
+      "kind": "stick"
+    },
+    {
+      "at": "D7",
+      "kind": "stick"
+    },
+    {
+      "at": "B10",
+      "kind": "ball"
+    },
+    {
+      "at": "F4",
+      "kind": "treat"
+    }
+  ]
+}

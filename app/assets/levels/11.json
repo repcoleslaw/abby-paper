@@ -1,0 +1,119 @@
+{
+  "level": 11,
+  "name": "Both gates",
+  "blurb": "Open ground, both gates, and a ball that does not pay.",
+  "start": "A10",
+  "flag": "F1",
+  "trees": [
+    "A4",
+    "A5",
+    "A6",
+    "C6",
+    "D6",
+    "C7",
+    "D7",
+    "C8",
+    "D8",
+    "E10",
+    "F10"
+  ],
+  "water": [
+    "C1",
+    "B2",
+    "C2"
+  ],
+  "caves": [
+    "E1",
+    "E2",
+    "E3",
+    "F3"
+  ],
+  "cliffs": [
+    [
+      "B8",
+      "B9"
+    ],
+    [
+      "E8",
+      "E9"
+    ],
+    [
+      "B2",
+      "B3"
+    ],
+    [
+      "C2",
+      "D2"
+    ],
+    [
+      "C2",
+      "C3"
+    ],
+    [
+      "B3",
+      "C3"
+    ],
+    [
+      "E2",
+      "E3"
+    ],
+    [
+      "D2",
+      "D3"
+    ]
+  ],
+  "pickups": [
+    {
+      "at": "A7",
+      "kind": "treat"
+    },
+    {
+      "at": "B1",
+      "kind": "treat"
+    },
+    {
+      "at": "A1",
+      "kind": "stick"
+    },
+    {
+      "at": "D3",
+      "kind": "stick"
+    },
+    {
+      "at": "D1",
+      "kind": "lamp"
+    },
+    {
+      "at": "C10",
+      "kind": "ball"
+    },
+    {
+      "at": "E8",
+      "kind": "treat"
+    },
+    {
+      "at": "D9",
+      "kind": "stick"
+    },
+    {
+      "at": "C5",
+      "kind": "stick"
+    },
+    {
+      "at": "E5",
+      "kind": "stick"
+    },
+    {
+      "at": "E7",
+      "kind": "lamp"
+    },
+    {
+      "at": "D2",
+      "kind": "ball"
+    },
+    {
+      "at": "B5",
+      "kind": "treat"
+    }
+  ]
+}

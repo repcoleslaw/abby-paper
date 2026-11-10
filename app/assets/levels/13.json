@@ -1,0 +1,113 @@
+{
+  "level": 13,
+  "name": "The Full pocket",
+  "blurb": "Both roads carry two sticks. The extra ball is worth the walk.",
+  "start": "A10",
+  "flag": "E4",
+  "open": [
+    "C1",
+    "D1",
+    "E1",
+    "F1",
+    "A2",
+    "B2",
+    "C2",
+    "F2",
+    "A3",
+    "F3",
+    "A4",
+    "B4",
+    "C4",
+    "D4",
+    "E4",
+    "F4",
+    "B5",
+    "E5",
+    "F5",
+    "B6",
+    "F6",
+    "B7",
+    "D7",
+    "E7",
+    "F7",
+    "A8",
+    "B8",
+    "D8",
+    "A9",
+    "D9",
+    "A10",
+    "B10",
+    "C10",
+    "D10"
+  ],
+  "pickups": [
+    {
+      "at": "A9",
+      "kind": "treat"
+    },
+    {
+      "at": "B10",
+      "kind": "treat"
+    },
+    {
+      "at": "B5",
+      "kind": "stick"
+    },
+    {
+      "at": "B7",
+      "kind": "stick"
+    },
+    {
+      "at": "D10",
+      "kind": "stick"
+    },
+    {
+      "at": "D7",
+      "kind": "stick"
+    },
+    {
+      "at": "D4",
+      "kind": "ball"
+    },
+    {
+      "at": "E5",
+      "kind": "ball"
+    },
+    {
+      "at": "F6",
+      "kind": "ball"
+    },
+    {
+      "at": "B2",
+      "kind": "ball"
+    },
+    {
+      "at": "D1",
+      "kind": "ball"
+    },
+    {
+      "at": "E1",
+      "kind": "ball"
+    },
+    {
+      "at": "C2",
+      "kind": "treat"
+    },
+    {
+      "at": "F2",
+      "kind": "treat"
+    },
+    {
+      "at": "A3",
+      "kind": "stick"
+    },
+    {
+      "at": "A2",
+      "kind": "stick"
+    },
+    {
+      "at": "A4",
+      "kind": "treat"
+    }
+  ]
+}

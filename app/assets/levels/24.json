@@ -1,0 +1,76 @@
+{
+  "level": 24,
+  "name": "The lamp road",
+  "blurb": "Pick up the lamp. The arch is the road with the pocket.",
+  "start": "F1",
+  "flag": "A6",
+  "open": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "E5",
+    "E6",
+    "E7",
+    "D7",
+    "C7",
+    "B7",
+    "B6",
+    "A6",
+    "E1",
+    "D1",
+    "C1",
+    "B1",
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5"
+  ],
+  "caves": [
+    "E5"
+  ],
+  "pickups": [
+    {
+      "at": "E1",
+      "kind": "treat"
+    },
+    {
+      "at": "F2",
+      "kind": "treat"
+    },
+    {
+      "at": "F5",
+      "kind": "lamp"
+    },
+    {
+      "at": "A1",
+      "kind": "stick"
+    },
+    {
+      "at": "B7",
+      "kind": "stick"
+    },
+    {
+      "at": "E7",
+      "kind": "stick"
+    },
+    {
+      "at": "F3",
+      "kind": "stick"
+    },
+    {
+      "at": "A5",
+      "kind": "ball"
+    },
+    {
+      "at": "B6",
+      "kind": "ball"
+    },
+    {
+      "at": "D7",
+      "kind": "ball"
+    }
+  ]
+}

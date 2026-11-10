@@ -1,0 +1,88 @@
+{
+  "level": 3,
+  "name": "The cliff",
+  "blurb": "The heavy edge is a cliff. This one makes you go around.",
+  "start": "A8",
+  "flag": "F4",
+  "open": [
+    "B2",
+    "C2",
+    "D2",
+    "E2",
+    "F2",
+    "A3",
+    "B3",
+    "C3",
+    "F3",
+    "A4",
+    "B4",
+    "C4",
+    "D4",
+    "F4",
+    "B5",
+    "C5",
+    "D5",
+    "E5",
+    "F5",
+    "B6",
+    "E6",
+    "A7",
+    "B7",
+    "E7",
+    "F7",
+    "A8",
+    "B8",
+    "C8",
+    "D8",
+    "E8",
+    "F8",
+    "D9",
+    "E9"
+  ],
+  "water": [
+    "C4",
+    "D4",
+    "C5",
+    "D5"
+  ],
+  "cliffs": [
+    [
+      "E7",
+      "E8"
+    ],
+    [
+      "B3",
+      "B4"
+    ],
+    [
+      "C3",
+      "C4"
+    ]
+  ],
+  "pickups": [
+    {
+      "at": "D8",
+      "kind": "treat"
+    },
+    {
+      "at": "F8",
+      "kind": "stick"
+    },
+    {
+      "at": "A7",
+      "kind": "stick"
+    },
+    {
+      "at": "E9",
+      "kind": "ball"
+    },
+    {
+      "at": "B4",
+      "kind": "ball"
+    },
+    {
+      "at": "C3",
+      "kind": "treat"
+    }
+  ]
+}

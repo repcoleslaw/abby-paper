@@ -1,0 +1,108 @@
+{
+  "level": 16,
+  "name": "The far bank",
+  "blurb": "The vest is on the long road. The dry road is the lighter pocket.",
+  "start": "F1",
+  "flag": "B10",
+  "open": [
+    "D1",
+    "E1",
+    "F1",
+    "A2",
+    "B2",
+    "C2",
+    "D2",
+    "F2",
+    "A3",
+    "B3",
+    "C3",
+    "F3",
+    "A4",
+    "B4",
+    "E4",
+    "F4",
+    "B5",
+    "C5",
+    "E5",
+    "C6",
+    "E6",
+    "B7",
+    "C7",
+    "E7",
+    "F7",
+    "B8",
+    "C8",
+    "D8",
+    "E8",
+    "F8",
+    "B9",
+    "C9",
+    "D9",
+    "E9",
+    "F9",
+    "B10",
+    "E10",
+    "F10"
+  ],
+  "water": [
+    "C3"
+  ],
+  "pickups": [
+    {
+      "at": "C2",
+      "kind": "vest"
+    },
+    {
+      "at": "B4",
+      "kind": "stick"
+    },
+    {
+      "at": "C6",
+      "kind": "stick"
+    },
+    {
+      "at": "D1",
+      "kind": "stick"
+    },
+    {
+      "at": "E5",
+      "kind": "stick"
+    },
+    {
+      "at": "B5",
+      "kind": "ball"
+    },
+    {
+      "at": "C7",
+      "kind": "ball"
+    },
+    {
+      "at": "D8",
+      "kind": "ball"
+    },
+    {
+      "at": "F8",
+      "kind": "ball"
+    },
+    {
+      "at": "E10",
+      "kind": "ball"
+    },
+    {
+      "at": "F9",
+      "kind": "treat"
+    },
+    {
+      "at": "A3",
+      "kind": "stick"
+    },
+    {
+      "at": "F7",
+      "kind": "stick"
+    },
+    {
+      "at": "A4",
+      "kind": "treat"
+    }
+  ]
+}

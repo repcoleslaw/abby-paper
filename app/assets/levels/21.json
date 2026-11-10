@@ -1,0 +1,73 @@
+{
+  "level": 21,
+  "name": "The hedge",
+  "blurb": "Two sticks on each road. The long road's second ball pays.",
+  "start": "F1",
+  "flag": "A10",
+  "open": [
+    "F1",
+    "A2",
+    "B2",
+    "C2",
+    "D2",
+    "E2",
+    "F2",
+    "B3",
+    "E3",
+    "B4",
+    "E4",
+    "B5",
+    "E5",
+    "B6",
+    "E6",
+    "B7",
+    "E7",
+    "B8",
+    "E8",
+    "A9",
+    "B9",
+    "C9",
+    "D9",
+    "E9",
+    "F9",
+    "A10"
+  ],
+  "pickups": [
+    {
+      "at": "F2",
+      "kind": "treat"
+    },
+    {
+      "at": "B2",
+      "kind": "stick"
+    },
+    {
+      "at": "E5",
+      "kind": "stick"
+    },
+    {
+      "at": "B4",
+      "kind": "ball"
+    },
+    {
+      "at": "D9",
+      "kind": "treat"
+    },
+    {
+      "at": "B7",
+      "kind": "ball"
+    },
+    {
+      "at": "E3",
+      "kind": "ball"
+    },
+    {
+      "at": "B3",
+      "kind": "stick"
+    },
+    {
+      "at": "E7",
+      "kind": "stick"
+    }
+  ]
+}
